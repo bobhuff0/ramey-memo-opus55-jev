@@ -1,0 +1,334 @@
+{
+ "settings": {
+  "fonts": [
+   "Andale Mono",
+   "Menlo Bold",
+   "Courier New Bold",
+   "Liberation Mono Bold"
+  ],
+  "pitches_full_res": [
+   192,
+   208,
+   224,
+   240,
+   256,
+   272,
+   288,
+   304,
+   320
+  ],
+  "cap_ratios": [
+   0.5,
+   0.6,
+   0.7
+  ],
+  "blurs_sigma_full_res": [
+   4,
+   8,
+   12,
+   20,
+   32
+  ],
+  "n_random": 300,
+  "seed": 1947
+ },
+ "fits": {
+  "FORT WORTH, TEX.": {
+   "ncc": 0.23716874420642853,
+   "font": "Courier New Bold",
+   "pitch": 56,
+   "cap_ratio": 0.5,
+   "blur": 5,
+   "strip": "L_3",
+   "x": 408,
+   "y": 3
+  },
+  "WEATHER BALLOONS": {
+   "ncc": 0.2446127086877823,
+   "font": "Courier New Bold",
+   "pitch": 52,
+   "cap_ratio": 0.5,
+   "blur": 5,
+   "strip": "R_7",
+   "x": 484,
+   "y": 6
+  },
+  "OF THE WRECK": {
+   "ncc": 0.2524445950984955,
+   "font": "Courier New Bold",
+   "pitch": 56,
+   "cap_ratio": 0.5,
+   "blur": 5,
+   "strip": "L_2",
+   "x": 352,
+   "y": 3
+  },
+  "FORWARDED": {
+   "ncc": 0.2669490873813629,
+   "font": "Courier New Bold",
+   "pitch": 56,
+   "cap_ratio": 0.5,
+   "blur": 5,
+   "strip": "L_2",
+   "x": 632,
+   "y": 2
+  },
+  "RAMEY": {
+   "ncc": 0.2586546838283539,
+   "font": "Courier New Bold",
+   "pitch": 48,
+   "cap_ratio": 0.6,
+   "blur": 5,
+   "strip": "R_9",
+   "x": 122,
+   "y": 0
+  }
+ },
+ "tests": {
+  "FORT WORTH, TEX.": {
+   "geometry": {
+    "pitch": 54,
+    "cap_ratio": 0.5,
+    "blur": 5.0,
+    "pitches": [
+     48,
+     52,
+     56
+    ]
+   },
+   "truth_ncc": 0.23716874420642853,
+   "rank": 183,
+   "n_candidates": 601,
+   "variants_above": 132,
+   "n_variants": 300,
+   "randoms_above": 50,
+   "n_random": 300,
+   "top5": [
+    [
+     "RJEV MERWX, WME.",
+     0.24849072098731995
+    ],
+    [
+     "BJYU HPSWQ, NME.",
+     0.24754254519939423
+    ],
+    [
+     "MPJB MGBSF, MED.",
+     0.24596504867076874
+    ],
+    [
+     "QKRW KLGFG, RNA.",
+     0.24439959228038788
+    ],
+    [
+     "QJZQ DZHCI, DGZ.",
+     0.24433362483978271
+    ]
+   ]
+  },
+  "WEATHER BALLOONS": {
+   "geometry": {
+    "pitch": 56,
+    "cap_ratio": 0.5,
+    "blur": 5.0,
+    "pitches": [
+     52,
+     56,
+     60
+    ]
+   },
+   "truth_ncc": 0.2446127086877823,
+   "rank": 153,
+   "n_candidates": 676,
+   "variants_above": 144,
+   "n_variants": 375,
+   "randoms_above": 8,
+   "n_random": 300,
+   "top5": [
+    [
+     "GZMKQFM MWBYZGIS",
+     0.25053736567497253
+    ],
+    [
+     "WEATHER BALLOONQ",
+     0.25038155913352966
+    ],
+    [
+     "RDCVEIM DSYZUACK",
+     0.2491305023431778
+    ],
+    [
+     "WEATHER BVLLOONS",
+     0.2487211674451828
+    ],
+    [
+     "WEATHER BAQLOONS",
+     0.24871516227722168
+    ]
+   ]
+  },
+  "OF THE WRECK": {
+   "geometry": {
+    "pitch": 54,
+    "cap_ratio": 0.5,
+    "blur": 5.0,
+    "pitches": [
+     48,
+     52,
+     56
+    ]
+   },
+   "truth_ncc": 0.2524445950984955,
+   "rank": 149,
+   "n_candidates": 551,
+   "variants_above": 115,
+   "n_variants": 250,
+   "randoms_above": 33,
+   "n_random": 300,
+   "top5": [
+    [
+     "JK DYD TMRCG",
+     0.26406043767929077
+    ],
+    [
+     "MP TKJ OJNXA",
+     0.2618928849697113
+    ],
+    [
+     "OF THE WRJCK",
+     0.261834979057312
+    ],
+    [
+     "RP HMQ HNHYN",
+     0.26129457354545593
+    ],
+    [
+     "GE CAO OAOCC",
+     0.2612626254558563
+    ]
+   ]
+  },
+  "FORWARDED": {
+   "geometry": {
+    "pitch": 54,
+    "cap_ratio": 0.5,
+    "blur": 5.0,
+    "pitches": [
+     48,
+     52,
+     56
+    ]
+   },
+   "truth_ncc": 0.2669490873813629,
+   "rank": 243,
+   "n_candidates": 526,
+   "variants_above": 92,
+   "n_variants": 225,
+   "randoms_above": 150,
+   "n_random": 300,
+   "top5": [
+    [
+     "WMKQFCXQF",
+     0.28808704018592834
+    ],
+    [
+     "RFICGGJGM",
+     0.2847977578639984
+    ],
+    [
+     "HAECXXMUO",
+     0.28432497382164
+    ],
+    [
+     "QWBCQGUFB",
+     0.2837197780609131
+    ],
+    [
+     "CGQNZMSFK",
+     0.28360065817832947
+    ]
+   ]
+  },
+  "RAMEY": {
+   "geometry": {
+    "pitch": 56,
+    "cap_ratio": 0.5,
+    "blur": 5.0,
+    "pitches": [
+     52,
+     56,
+     60
+    ]
+   },
+   "truth_ncc": 0.2271416336297989,
+   "rank": 285,
+   "n_candidates": 426,
+   "variants_above": 65,
+   "n_variants": 125,
+   "randoms_above": 219,
+   "n_random": 300,
+   "top5": [
+    [
+     "LHRQN",
+     0.26164618134498596
+    ],
+    [
+     "JDIDD",
+     0.259084552526474
+    ],
+    [
+     "CPXYO",
+     0.2575223445892334
+    ],
+    [
+     "JEBGH",
+     0.25566214323043823
+    ],
+    [
+     "JHGAG",
+     0.2555280923843384
+    ]
+   ]
+  }
+ },
+ "disputed": {
+  "strips": [
+   "L_2",
+   "R_2"
+  ],
+  "geometry": {
+   "pitch": 56,
+   "cap_ratio": 0.5,
+   "blur": 5.0,
+   "pitches": [
+    52,
+    56,
+    60
+   ]
+  },
+  "ranks": {
+   "VICTIMS": 31,
+   "REMAINS": 4,
+   "FINDING": 1,
+   "VIEWING": 78,
+   "PACKING": 34,
+   "HOLDING": 28,
+   "SIGHTED": 9
+  },
+  "scores": {
+   "VICTIMS": 0.29043814539909363,
+   "REMAINS": 0.29776450991630554,
+   "FINDING": 0.3048711121082306,
+   "VIEWING": 0.28459078073501587,
+   "PACKING": 0.29022228717803955,
+   "HOLDING": 0.2910088300704956,
+   "SIGHTED": 0.2956531345844269
+  },
+  "n_candidates": 307,
+  "random_above_victims": 26,
+  "located_OF_THE_WRECK_full_res_x": 1408,
+  "located_FORWARDED_full_res_x": 2528,
+  "expected_char_gap": 17,
+  "found_char_gap": 5.0
+ }
+}

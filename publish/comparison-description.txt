@@ -1,0 +1,78 @@
+TITLE OPTIONS
+1. Two AIs, One Roswell Memo: What Claude Opus 5.5 and Jev Caught That Earlier Analyses Missed
+2. We Had an AI Fact-Check Our AI: One Flag Exposed a Flaw in the Ramey Memo Test
+3. Can the Latest AI Read the Ramey Memo? Five AI Analyses Compared
+4. Roswell’s Ramey Memo: Our Most Thorough AI Test Yet (Claude Opus 5.5 + TypeSafe Jev)
+5. Why No AI Can Read “VICTIMS”: Claude Opus 5.5 and Jev Re-Test the Ramey Memo
+6. The Ramey Memo, Fact-Checked by AI: What Changed From Astra, Fable 5.1 and Opus 5.5
+
+DESCRIPTION
+This is the fifth time AI has been handed the University of Texas at Arlington’s high-resolution scans of the Ramey memo, the typed message General Roger Ramey held on July 8, 1947, as Roswell’s “flying disc” became a weather balloon. Earlier, OpenAI’s Codex running Astra reviewed the scans, Anthropic’s Claude analysed them with Fable 5.1, and Claude Opus 5.5 analysed them twice from scratch. This time two AI systems worked together, each with its own job: Claude Opus 5.5 rebuilt the image analysis from the raw scans, and TypeSafe’s Jev 1.13, a text-only model that answers narrow questions with probabilities, judged the words and checked the script.
+
+The verdict is the same: the memo cannot be read from these scans. What changed is how much of that verdict has now been tested, and one conclusion that turned out to be wrong.
+
+WHAT’S NEW IN THIS ANALYSIS
+
+1. Reader agreement counted by word, not by hand
+Earlier videos counted by hand how often David Rudiak’s ten readers agree. This time Jev judged 511 pairs of readings: do the two name the same word (DISC spelled with a C or a K) or different words (VICTIMS and VIEWING)? Code, not the model, did the counting. Of 74 word positions, only 5 are unanimous, 14 reach eight of ten readers, and 22 reach six, under 30% of the memo. Any same-word threshold from 0.3 to 0.9 moves those counts by at most one, and a second Jev run gave the same counts. The earlier hand counts hold up; now they can be reproduced and they come with a sensitivity check.
+
+2. Every sentence of the script fact-checked
+Jev checked all 84 narration sentences against the measured results and the source notes. It confirmed 46 outright and flagged 20, which Claude Opus 5.5 then checked against the results. The flags led to six clearer or more accurate wordings.
+
+3. A flaw found and fixed
+One of Jev’s flags sent Opus 5.5 back to the fake-memo test. The sharp-letter trials had been searched with blurred templates. Re-run with templates as sharp as the letters, sharp letters came first in 4 of 20 trials (previously 0 of 12) and usually made the top ten. Letters blurred the way the memo’s are still came first in 0 of 20. So it isn’t the grain alone that defeats template matching, as the previous Opus 5.5 video said; it takes the blur and the grain together, and the memo has both. That also settles the one point on which the two earlier Opus 5.5 runs disagreed.
+
+4. A bigger, sharper known-answer test
+Five undisputed phrases on four patches of real blank film give 20 trials per condition, up from 12. Sweeps then turn the letters up: sharp letters start winning at 1.5 times the real letter strength, blurred letters only at 6 times. An independent estimate from the real memo’s own scores puts its letters at 0.25 of the grain, a little weaker than the 0.29 the test assumed, so the test was, if anything, generous.
+
+5. Reproduced before it was trusted
+Every image measurement from the previous run came out identical, as did the known-word test: FORT WORTH, TEX. 183rd of 601; WEATHER BALLOONS 153rd of 676; OF THE WRECK 149th of 551; FORWARDED 243rd of 526; RAMEY 285th of 426. Some random letter strings beat every true phrase. On the disputed word, FINDING still ranks first of 307, REMAINS 4th and VICTIMS 31st, behind 26 random strings.
+
+HOW THE EARLIER ANALYSES COMPARE
+Astra (OpenAI Codex): a careful visual review. It verified the files and weighed the published readings, but made no measurements or calibrated tests. FORT WORTH, TEX. and WEATHER BALLOONS were its strongest fragments; VICTIMS was “possible but too ambiguous to adopt.”
+Claude Fable 5.1: the first quantitative pass. It missed that two left-half files had shifted by up to 35 pixels, and that the “2x” files were enlarged in software.
+Claude Opus 5.5, first two runs: they found both of those problems and showed that letter matching fails on words nobody disputes. But they blamed the failure on different causes, and the second run’s “grain alone” conclusion rested on the flawed sharp-letter test.
+Claude Opus 5.5 + Jev (this video): the same verdict, now with reproducible reader counts, a fact-checked script, and the flaw corrected.
+
+WHERE ALL FIVE AGREE
+The word skeleton survives: a wreck, something forwarded to Fort Worth, weather balloons. The letters do not. VICTIMS remains a reading, not a fact, and the $10,000 reward offered in 2016 for a definitive reading has never been publicly claimed.
+
+No generative enhancement was used to invent letters. Straightened images are computed from the scans with ordinary signal processing; typeset phrases are proposed readings, not restored lettering. Jev never saw an image: it grouped readers’ spellings and checked sentences against the results. These AI systems assisted the investigation; none of them solved the memo.
+
+CHAPTERS
+00:00 Can the latest AI read the Ramey memo?
+00:41 Two AI systems, two jobs
+01:26 What the scans contain
+02:23 The numbers that govern everything
+03:18 Straightening the lines
+04:19 What ten readers agree on, counted by Jev
+05:22 Victims, and one word's evidence
+06:08 The calibration test
+07:10 Why the method fails
+08:02 The disputed word
+08:39 How expectations shape a reading
+09:10 What remains unresolved
+
+SOURCES
+UTA Libraries — Ramey Memo High Resolution Microfiche Scans (23 files; this analysis used 9):
+https://sites.libraries.uta.edu/roswell/ramey-memo
+
+James Houran & Kevin D. Randle (2002), “A Message in a Bottle: Confounds in Deciphering the Ramey Memo from the Roswell UFO Case,” Journal of Scientific Exploration, 16(1), 45–66:
+https://www.researchgate.net/publication/228706129
+
+David Rudiak — comparison of ten readers’ transcriptions (updated May 2025):
+http://www.roswellproof.com/Ramey_memo_compare.html
+
+The $10,000 reward (announced 16 June 2016):
+http://kevinrandle.blogspot.com/2016/06/ramey-memo-and-10000-reward.html
+
+TypeSafe Jev (model jev-1.13.0): https://docs.typesafe.ai/models
+
+Earlier videos in this set: “Can OpenAI’s Astra Read It?”, “Can Anthropic’s Claude Read It?” and “Can Anthropic’s Claude Opus 5.5 Read It?” (links in the pinned comment).
+
+CREDITS
+Archival imagery: UTA Libraries, Special Collections, Fort Worth Star-Telegram Photograph Collection. Image analysis and video assembly by Anthropic’s Claude Opus 5.5; reader agreement and script fact check by TypeSafe’s Jev 1.13. Earlier analyses by OpenAI’s Codex (Astra) and Anthropic’s Claude (Fable 5.1 and Opus 5.5). AI-generated narration: ElevenLabs eleven_multilingual_v2, voice Andrew. This is an independent editorial project, not sponsored by OpenAI, Anthropic, TypeSafe or ElevenLabs.
+
+Subscribe to The Future Past for more investigations into historical mysteries and the evidence behind them.
+
+#Roswell #RameyMemo #AI #Claude #Jev #UFO

@@ -1,0 +1,55 @@
+Can the latest publicly available AI read the typed message in General Roger Ramey’s hand? We put the University of Texas at Arlington’s high-resolution scans of the 1947 Ramey memo through two new AI systems: Anthropic’s Claude Opus 5.5, which rebuilt the whole image analysis from the raw scans, and TypeSafe’s Jev 1.13, a text-only model that answers narrow questions with probabilities.
+
+This 10:11 investigation follows both systems step by step. Claude Opus 5.5 measured what the files contain. The file names say “2x”, but a pattern repeats every 11 pixels and real detail stops at one sample every 3.4–3.6 file pixels, so the files were enlarged in software. Every file carries the same negative’s grain: on the right half the four brightness files align to within 0.15 pixel; on the left half two files had shifted by up to 35 pixels, and after re-alignment their grain matched again (0.87–0.89). Merging all four removes only 5–8% of the noise. Opus 5.5 straightened the memo’s nine lines and joined the two halves, whose grain matches at 0.92–0.94 in six of six patches.
+
+Jev never saw an image. It judged 511 pairs of transcriptions from David Rudiak’s ten-reader table: do two readings name the same word (DISC and DISK) or different words (VICTIMS and VIEWING)? Code, not the model, counted agreement. Of 74 word positions, only 5 are unanimous, 14 reach eight of ten readers, and 22 reach six. Any same-word threshold from 0.3 to 0.9 changes those counts by at most one. VICTIMS has six readers; the signature has RAMEY 5 and TEMPLE 3. Jev also checked every factual sentence of the narration against the measured results. Sentences it could not confirm went back to Claude Opus 5.5, which checked each against the results and rewrote the loosely worded ones. One flag sent Opus 5.5 back to the synthetic test below, where the sharp-letter condition had been searched with blurred templates; fixing that changed a conclusion.
+
+Then the test that should come before any letter ranking. Five undisputed phrases were rendered in four monospace fonts, with letter size and blur fitted on the other four phrases, and slid along the straightened lines against every one-letter misspelling and 300 random-letter strings. FORT WORTH, TEX. ranked 183rd of 601; WEATHER BALLOONS 153rd of 676; OF THE WRECK 149th of 551; FORWARDED 243rd of 526; RAMEY 285th of 426. Some random strings beat every true phrase.
+
+On fake memo lines with a known answer, laid on real blank film at the letter strength measured on the real lines, and searched with the right font at the right size: sharp letters came first in 4 of 20 trials (median rank 6); letters blurred the way the memo’s are came first in 0 of 20 (median rank 64); blurred letters with no grain came first 5 of 5 times. Sharp letters start winning at 1.5× the real letter strength, blurred letters only at 6×. It takes the blur and the grain together to defeat template matching, and the memo has both. On the disputed seven-letter word, FINDING ranked first of 307, REMAINS 4th and VICTIMS 31st, behind 26 random strings. Because the method fails on words nobody disputes, that settles nothing either way.
+
+The word skeleton of the memo survives. The disputed word does not resolve.
+
+No generative enhancement was used to invent letters. The straightened images are computed from the scans with ordinary signal processing; typeset phrases are proposed readings, not restored lettering. Reader counts come from David Rudiak’s ten-reader comparison table; Jev grouped spellings, it did not read the memo. This was not a blinded experiment. The AI systems assisted the investigation; they did not solve the memo.
+
+CHAPTERS
+00:00 Can the latest AI read the Ramey memo?
+00:41 Two AI systems, two jobs
+01:26 What the scans contain
+02:23 The numbers that govern everything
+03:18 Straightening the lines
+04:19 What ten readers agree on, counted by Jev
+05:22 Victims, and one word's evidence
+06:08 The calibration test
+07:10 Why the method fails
+08:02 The disputed word
+08:39 How expectations shape a reading
+09:10 What remains unresolved
+
+SOURCES
+UTA Libraries — Ramey Memo High Resolution Microfiche Scans (23 files; this analysis used 9):
+https://sites.libraries.uta.edu/roswell/ramey-memo
+
+James Houran & Kevin D. Randle (2002), “A Message in a Bottle: Confounds in Deciphering the Ramey Memo from the Roswell UFO Case,” Journal of Scientific Exploration, 16(1), 45–66:
+https://www.researchgate.net/publication/228706129
+
+David Rudiak — comparison of ten readers’ transcriptions of the Ramey memo (updated May 2025):
+http://www.roswellproof.com/Ramey_memo_compare.html
+
+David Rudiak on his unpublished template cross-correlation test (comment of 27 April 2016):
+http://kevinrandle.blogspot.com/2016/04/ramey-memo-update.html
+
+The $10,000 reward (announced 16 June 2016):
+http://kevinrandle.blogspot.com/2016/06/ramey-memo-and-10000-reward.html
+
+TypeSafe Jev (model jev-1.13.0): https://docs.typesafe.ai/models
+
+Analysis scripts (registration, grain and sampling, merge, line tracing, halves overlap, known-word and known-answer tests, Jev reader agreement and script check) and the straightened scans: available on request.
+
+CREDITS
+Archival imagery: UTA Libraries, Special Collections, Fort Worth Star-Telegram Photograph Collection.
+Image analysis, image processing and video assembly by Anthropic’s Claude Opus 5.5 (Python, NumPy, SciPy, scikit-image, OpenCV, Pillow, ffmpeg). Reader agreement and script fact check: TypeSafe’s Jev 1.13 (text only). AI-generated narration: ElevenLabs eleven_multilingual_v2, voice Andrew. The thumbnail and opening show the actual archival photograph of the memo in Ramey’s hand, cropped and resized for presentation. This is an independent editorial project, not sponsored by Anthropic, TypeSafe or ElevenLabs.
+
+Subscribe to The Future Past for more investigations into historical mysteries and the evidence behind them.
+
+#Roswell #RameyMemo #Claude #Jev #AI
