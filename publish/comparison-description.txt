@@ -7,26 +7,14 @@ TITLE OPTIONS
 6. The Ramey Memo, Fact-Checked by AI: What Changed From Astra, Fable 5.1 and Opus 5.5
 
 DESCRIPTION
-This is the fifth time AI has been handed the University of Texas at Arlington’s high-resolution scans of the Ramey memo, the typed message General Roger Ramey held on July 8, 1947, as Roswell’s “flying disc” became a weather balloon. Earlier, OpenAI’s Codex running Astra reviewed the scans, Anthropic’s Claude analysed them with Fable 5.1, and Claude Opus 5.5 analysed them twice from scratch. This time two AI systems worked together, each with its own job: Claude Opus 5.5 rebuilt the image analysis from the raw scans, and TypeSafe’s Jev 1.13, a text-only model that answers narrow questions with probabilities, judged the words and checked the script.
-
-The verdict is the same: the memo cannot be read from these scans. What changed is how much of that verdict has now been tested, and one conclusion that turned out to be wrong.
+This is the fifth AI analysis of the University of Texas at Arlington’s scans of the 1947 Ramey memo. This time two systems worked together: Anthropic’s Claude Opus 5.5 rebuilt the image analysis from the raw scans, and TypeSafe’s Jev 1.13, a text-only model, judged the readers’ words and checked the script. The verdict is the same: the memo cannot be read from these scans.
 
 WHAT’S NEW IN THIS ANALYSIS
-
-1. Reader agreement counted by word, not by hand
-Earlier videos counted by hand how often David Rudiak’s ten readers agree. This time Jev judged 511 pairs of readings: do the two name the same word (DISC spelled with a C or a K) or different words (VICTIMS and VIEWING)? Code, not the model, did the counting. Of 74 word positions, only 5 are unanimous, 14 reach eight of ten readers, and 22 reach six, under 30% of the memo. Any same-word threshold from 0.3 to 0.9 moves those counts by at most one, and a second Jev run gave the same counts. The earlier hand counts hold up; now they can be reproduced and they come with a sensitivity check.
-
-2. Every sentence of the script fact-checked
-Jev checked all 84 narration sentences against the measured results and the source notes. It confirmed 46 outright and flagged 20, which Claude Opus 5.5 then checked against the results. The flags led to six clearer or more accurate wordings.
-
-3. A flaw found and fixed
-One of Jev’s flags sent Opus 5.5 back to the fake-memo test. The sharp-letter trials had been searched with blurred templates. Re-run with templates as sharp as the letters, sharp letters came first in 4 of 20 trials (previously 0 of 12) and usually made the top ten. Letters blurred the way the memo’s are still came first in 0 of 20. So it isn’t the grain alone that defeats template matching, as the previous Opus 5.5 video said; it takes the blur and the grain together, and the memo has both. That also settles the one point on which the two earlier Opus 5.5 runs disagreed.
-
-4. A bigger, sharper known-answer test
-Five undisputed phrases on four patches of real blank film give 20 trials per condition, up from 12. Sweeps then turn the letters up: sharp letters start winning at 1.5 times the real letter strength, blurred letters only at 6 times. An independent estimate from the real memo’s own scores puts its letters at 0.25 of the grain, a little weaker than the 0.29 the test assumed, so the test was, if anything, generous.
-
-5. Reproduced before it was trusted
-Every image measurement from the previous run came out identical, as did the known-word test: FORT WORTH, TEX. 183rd of 601; WEATHER BALLOONS 153rd of 676; OF THE WRECK 149th of 551; FORWARDED 243rd of 526; RAMEY 285th of 426. Some random letter strings beat every true phrase. On the disputed word, FINDING still ranks first of 307, REMAINS 4th and VICTIMS 31st, behind 26 random strings.
+1. Reader agreement counted by Jev, word by word: of 74 positions, 5 are unanimous, 14 reach eight of ten readers and 22 reach six. The counts barely move across thresholds and repeated exactly on a second run.
+2. Every narration sentence fact-checked: Jev confirmed 46 of 84 and flagged 20 for review, which led to six clearer wordings.
+3. A flaw found and fixed: one flag showed the sharp-letter trials had been searched with blurred templates. Fixed, sharp letters came first in 4 of 20 trials; blurred letters still 0 of 20. It takes the blur and the grain together, not the grain alone.
+4. A bigger known-answer test: 20 trials per condition, up from 12. Sharp letters start winning at 1.5 times the real letter strength, blurred letters only at 6 times.
+5. Reproduced before it was trusted: every image measurement and known-word rank from the previous run came out identical.
 
 HOW THE EARLIER ANALYSES COMPARE
 Astra (OpenAI Codex): a careful visual review. It verified the files and weighed the published readings, but made no measurements or calibrated tests. FORT WORTH, TEX. and WEATHER BALLOONS were its strongest fragments; VICTIMS was “possible but too ambiguous to adopt.”
@@ -37,7 +25,7 @@ Claude Opus 5.5 + Jev (this video): the same verdict, now with reproducible read
 WHERE ALL FIVE AGREE
 The word skeleton survives: a wreck, something forwarded to Fort Worth, weather balloons. The letters do not. VICTIMS remains a reading, not a fact, and the $10,000 reward offered in 2016 for a definitive reading has never been publicly claimed.
 
-No generative enhancement was used to invent letters. Straightened images are computed from the scans with ordinary signal processing; typeset phrases are proposed readings, not restored lettering. Jev never saw an image: it grouped readers’ spellings and checked sentences against the results. These AI systems assisted the investigation; none of them solved the memo.
+No generative enhancement was used to invent letters. Jev never saw an image. These AI systems assisted the investigation; none of them solved the memo.
 
 CHAPTERS
 00:00 Can the latest AI read the Ramey memo?

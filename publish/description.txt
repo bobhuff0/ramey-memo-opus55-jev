@@ -1,12 +1,6 @@
-Can the latest publicly available AI read the typed message in General Roger Ramey’s hand? We put the University of Texas at Arlington’s high-resolution scans of the 1947 Ramey memo through two new AI systems: Anthropic’s Claude Opus 5.5, which rebuilt the whole image analysis from the raw scans, and TypeSafe’s Jev 1.13, a text-only model that answers narrow questions with probabilities.
+Can the latest publicly available AI read the typed message in General Roger Ramey’s hand? Anthropic’s Claude Opus 5.5 rebuilt the image analysis of the University of Texas at Arlington’s scans of the 1947 Ramey memo from scratch. TypeSafe’s Jev 1.13, a text-only model, judged ten readers’ transcriptions and fact-checked the script.
 
-This 10:11 investigation follows both systems step by step. Claude Opus 5.5 measured what the files contain. The file names say “2x”, but a pattern repeats every 11 pixels and real detail stops at one sample every 3.4–3.6 file pixels, so the files were enlarged in software. Every file carries the same negative’s grain: on the right half the four brightness files align to within 0.15 pixel; on the left half two files had shifted by up to 35 pixels, and after re-alignment their grain matched again (0.87–0.89). Merging all four removes only 5–8% of the noise. Opus 5.5 straightened the memo’s nine lines and joined the two halves, whose grain matches at 0.92–0.94 in six of six patches.
-
-Jev never saw an image. It judged 511 pairs of transcriptions from David Rudiak’s ten-reader table: do two readings name the same word (DISC and DISK) or different words (VICTIMS and VIEWING)? Code, not the model, counted agreement. Of 74 word positions, only 5 are unanimous, 14 reach eight of ten readers, and 22 reach six. Any same-word threshold from 0.3 to 0.9 changes those counts by at most one. VICTIMS has six readers; the signature has RAMEY 5 and TEMPLE 3. Jev also checked every factual sentence of the narration against the measured results. Sentences it could not confirm went back to Claude Opus 5.5, which checked each against the results and rewrote the loosely worded ones. One flag sent Opus 5.5 back to the synthetic test below, where the sharp-letter condition had been searched with blurred templates; fixing that changed a conclusion.
-
-Then the test that should come before any letter ranking. Five undisputed phrases were rendered in four monospace fonts, with letter size and blur fitted on the other four phrases, and slid along the straightened lines against every one-letter misspelling and 300 random-letter strings. FORT WORTH, TEX. ranked 183rd of 601; WEATHER BALLOONS 153rd of 676; OF THE WRECK 149th of 551; FORWARDED 243rd of 526; RAMEY 285th of 426. Some random strings beat every true phrase.
-
-On fake memo lines with a known answer, laid on real blank film at the letter strength measured on the real lines, and searched with the right font at the right size: sharp letters came first in 4 of 20 trials (median rank 6); letters blurred the way the memo’s are came first in 0 of 20 (median rank 64); blurred letters with no grain came first 5 of 5 times. Sharp letters start winning at 1.5× the real letter strength, blurred letters only at 6×. It takes the blur and the grain together to defeat template matching, and the memo has both. On the disputed seven-letter word, FINDING ranked first of 307, REMAINS 4th and VICTIMS 31st, behind 26 random strings. Because the method fails on words nobody disputes, that settles nothing either way.
+This 10:11 investigation follows both systems. Opus 5.5 found that the “2x” files were enlarged in software, that two left-half files had shifted by up to 35 pixels, and that merging exposures removes only 5–8% of the noise. On phrases nobody disputes, template matching fails: FORT WORTH, TEX. ranked 183rd of 601, and some random strings beat every true phrase. On fake memo lines with a known answer, sharp letters came first in 4 of 20 trials and letters blurred like the memo’s in 0 of 20: it takes the blur and the grain together to defeat the method. Jev found only 5 of 74 word positions on which all ten readers agree. On the disputed word, FINDING ranked first and VICTIMS 31st of 307, which settles nothing.
 
 The word skeleton of the memo survives. The disputed word does not resolve.
 
@@ -18,7 +12,7 @@ This is the fifth AI analysis of these scans. The verdict hasn’t changed, but 
 • This video: Jev counted reader agreement word by word (5 of 74 positions unanimous) and fact-checked all 84 narration sentences. One of its flags exposed the template flaw. With it fixed, sharp letters come first in 4 of 20 trials and blurred letters in 0 of 20, so it takes the blur and the grain together to defeat the method.
 All five agree: the word skeleton survives (a wreck, something forwarded to Fort Worth, weather balloons). The letters, including VICTIMS, do not.
 
-No generative enhancement was used to invent letters. The straightened images are computed from the scans with ordinary signal processing; typeset phrases are proposed readings, not restored lettering. Reader counts come from David Rudiak’s ten-reader comparison table; Jev grouped spellings, it did not read the memo. This was not a blinded experiment. The AI systems assisted the investigation; they did not solve the memo.
+No generative enhancement was used to invent letters: straightened images are computed from the scans, and typeset phrases are proposed readings. Jev never saw an image. The AI systems assisted the investigation; they did not solve the memo.
 
 CHAPTERS
 00:00 Can the latest AI read the Ramey memo?
@@ -54,8 +48,6 @@ The $10,000 reward (announced 16 June 2016):
 http://kevinrandle.blogspot.com/2016/06/ramey-memo-and-10000-reward.html
 
 TypeSafe Jev (model jev-1.13.0): https://docs.typesafe.ai/models
-
-Analysis scripts (registration, grain and sampling, merge, line tracing, halves overlap, known-word and known-answer tests, Jev reader agreement and script check): https://github.com/bobhuff0/ramey-memo-opus55-jev
 
 CREDITS
 Archival imagery: UTA Libraries, Special Collections, Fort Worth Star-Telegram Photograph Collection.
