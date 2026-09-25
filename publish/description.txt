@@ -10,6 +10,14 @@ On fake memo lines with a known answer, laid on real blank film at the letter st
 
 The word skeleton of the memo survives. The disputed word does not resolve.
 
+HOW THIS COMPARES WITH EARLIER AI ANALYSES
+This is the fifth AI analysis of these scans. The verdict hasn’t changed, but more of it has now been tested, and one earlier conclusion was corrected.
+• Astra (OpenAI Codex): a visual review with no measurements. It rated FORT WORTH, TEX. and WEATHER BALLOONS the strongest fragments, and VICTIMS “possible but too ambiguous to adopt.”
+• Claude Fable 5.1: the first measurements, but it missed that two left-half files had shifted by up to 35 pixels, and that the “2x” files were enlarged in software.
+• Claude Opus 5.5, first two runs: found both problems and showed that letter matching fails on words nobody disputes. The second run blamed the grain alone, based on a sharp-letter test that had been searched with blurred templates.
+• This video: Jev counted reader agreement word by word (5 of 74 positions unanimous) and fact-checked all 84 narration sentences. One of its flags exposed the template flaw. With it fixed, sharp letters come first in 4 of 20 trials and blurred letters in 0 of 20, so it takes the blur and the grain together to defeat the method.
+All five agree: the word skeleton survives (a wreck, something forwarded to Fort Worth, weather balloons). The letters, including VICTIMS, do not.
+
 No generative enhancement was used to invent letters. The straightened images are computed from the scans with ordinary signal processing; typeset phrases are proposed readings, not restored lettering. Reader counts come from David Rudiak’s ten-reader comparison table; Jev grouped spellings, it did not read the memo. This was not a blinded experiment. The AI systems assisted the investigation; they did not solve the memo.
 
 CHAPTERS
@@ -47,7 +55,7 @@ http://kevinrandle.blogspot.com/2016/06/ramey-memo-and-10000-reward.html
 
 TypeSafe Jev (model jev-1.13.0): https://docs.typesafe.ai/models
 
-Analysis scripts (registration, grain and sampling, merge, line tracing, halves overlap, known-word and known-answer tests, Jev reader agreement and script check) and the straightened scans: available on request.
+Analysis scripts (registration, grain and sampling, merge, line tracing, halves overlap, known-word and known-answer tests, Jev reader agreement and script check): https://github.com/bobhuff0/ramey-memo-opus55-jev
 
 CREDITS
 Archival imagery: UTA Libraries, Special Collections, Fort Worth Star-Telegram Photograph Collection.
