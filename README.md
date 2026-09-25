@@ -25,6 +25,7 @@ the true text out of the film grain. Only 5 of 74 word positions are read the sa
 | `build/script.py` | The narration, scene by scene. |
 | `build/render.py`, `revoice.py`, `encode.py` | Slides, ElevenLabs narration with captions, and the final MP4. |
 | `build/verify_audio.py`, `build/qc/audio_artifacts.py` | Audio QC: transcription check, and a scan for breaths or clipped syllables at sentence edges. |
+| `short/` | The 42-second vertical YouTube Short: beats and captions, one-take ElevenLabs narration with character timestamps, and the frame renderer. |
 | `publish/` | The title, description, comparison description, captions and script as published. |
 
 ## Not included
@@ -53,6 +54,8 @@ python3 s9_reader_agreement.py && python3 s10_script_check.py
 cd ../build
 python3 render.py && python3 revoice.py --provider elevenlabs --per-sentence && python3 verify_audio.py
 python3 qc/audio_artifacts.py
+cd ../short
+python3 short_tts.py && python3 short_render.py     # add --stills to preview one frame per beat
 ```
 
 `revoice.py` requests one clip per sentence from ElevenLabs (`eleven_multilingual_v2`, voice Andrew

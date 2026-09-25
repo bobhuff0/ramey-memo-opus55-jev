@@ -1,0 +1,16 @@
+TITLE OPTIONS
+1. Can the Newest AI Read the Roswell Memo?
+2. Two AIs vs. the Roswell Memo
+3. Why No AI Can Read the Ramey Memo
+4. The Roswell Memo Nobody Can Read, Not Even AI
+5. Does the Roswell Memo Say “VICTIMS”? We Asked the Newest AI
+
+DESCRIPTION
+In 1947, General Roger Ramey held a typed message that people still argue over. We gave the high-resolution scans to Claude Opus 5.5 and TypeSafe’s Jev. Ten human readers agree on only 5 of its 74 words. The image method can’t even find a phrase nobody disputes: FORT WORTH, TEX. ranked 183rd of 601. Blurred letters buried in film grain defeat it, so VICTIMS stays a reading, not a fact.
+
+Full 10-minute investigation on The Future Past.
+Code and results: https://github.com/bobhuff0/ramey-memo-opus55-jev
+
+Archival imagery: UTA Libraries, Special Collections, Fort Worth Star-Telegram Photograph Collection. AI-generated narration: ElevenLabs eleven_multilingual_v2, voice Andrew.
+
+#Shorts #Roswell #RameyMemo #AI #UFO

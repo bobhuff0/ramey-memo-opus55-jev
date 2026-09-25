@@ -21,3 +21,4 @@ build/verify_audio.json
 build/qc/*.json
 build/qc/frame_*.png
 .env
+short/out/
