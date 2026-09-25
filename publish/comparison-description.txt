@@ -53,6 +53,9 @@ CHAPTERS
 08:39 How expectations shape a reading
 09:10 What remains unresolved
 
+CODE AND RESULTS
+All the analysis code, the measured results and both Jev reports are public: https://github.com/bobhuff0/ramey-memo-opus55-jev
+
 SOURCES
 UTA Libraries — Ramey Memo High Resolution Microfiche Scans (23 files; this analysis used 9):
 https://sites.libraries.uta.edu/roswell/ramey-memo
