@@ -22027,5 +22027,5810 @@
     "review_note": ""
    }
   ]
+ },
+ "ablation": {
+  "settings": {
+   "test_patches_full_res": [
+    [
+     5780,
+     1000
+    ],
+    [
+     6160,
+     1000
+    ],
+    [
+     6540,
+     1000
+    ]
+   ],
+   "patch_h": 400,
+   "patch_w": 6256,
+   "psd_region_full_res": [
+    5780,
+    7400,
+    1540,
+    3500
+   ],
+   "psd_tiles": 286,
+   "psd_tile": 64,
+   "psd_floor": 0.02,
+   "phrases": [
+    "MAJOR MARCEL",
+    "BRAZEL RANCH",
+    "EIGHTH AIR FORCE",
+    "DISC",
+    "KQXV ZWPJT"
+   ],
+   "font": "Courier New Bold",
+   "pitch_full_res": 216,
+   "cap_ratio": 0.5,
+   "strengths": [
+    {
+     "label": "blur x1",
+     "sigma_full_res": 20.0,
+     "mult": 1.0
+    },
+    {
+     "label": "blur x2",
+     "sigma_full_res": 20.0,
+     "mult": 2.0
+    },
+    {
+     "label": "blur x4",
+     "sigma_full_res": 20.0,
+     "mult": 4.0
+    },
+    {
+     "label": "sharp x1",
+     "sigma_full_res": 2.4,
+     "mult": 1.0
+    }
+   ],
+   "snr": 0.2115864703863207,
+   "grain_std": 25.170427322387695,
+   "n_random": 200,
+   "scorings": [
+    "ncc",
+    "ncc_hp",
+    "whitened"
+   ],
+   "geometries": [
+    "oracle",
+    "known_geometry",
+    "free_geometry"
+   ],
+   "search_grid": "s7.grid_for: four fonts x pitches 200/216/232 px, template blur = planted blur"
+  },
+  "rows": [
+   {
+    "condition": "blur x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 67,
+      "truth_score": 0.1310998499393463,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 90,
+      "truth_score": 0.1361893266439438,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 91,
+      "truth_score": 0.1361893266439438,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 66,
+      "truth_score": 0.11876467615365982,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 87,
+      "truth_score": 0.12400821596384048,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 87,
+      "truth_score": 0.12400821596384048,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 75,
+      "truth_score": 0.029121175408363342,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 94,
+      "truth_score": 0.029935119673609734,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "whitened/free_geometry": {
+      "rank": 94,
+      "truth_score": 0.029935119673609734,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 2
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 139,
+      "truth_score": 0.1155913844704628,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 17
+     },
+     "ncc/known_geometry": {
+      "rank": 163,
+      "truth_score": 0.12456130236387253,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 23
+     },
+     "ncc/free_geometry": {
+      "rank": 113,
+      "truth_score": 0.12690727412700653,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 14
+     },
+     "ncc_hp/oracle": {
+      "rank": 138,
+      "truth_score": 0.1023557260632515,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 20
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 166,
+      "truth_score": 0.1081966757774353,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 28
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 129,
+      "truth_score": 0.10978351533412933,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 19
+     },
+     "whitened/oracle": {
+      "rank": 159,
+      "truth_score": 0.021742001175880432,
+      "top": "ATLHW XAGKEC",
+      "top1_char_error": 0.8181818181818182,
+      "localised": true,
+      "randoms_above": 35
+     },
+     "whitened/known_geometry": {
+      "rank": 199,
+      "truth_score": 0.023050468415021896,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 61
+     },
+     "whitened/free_geometry": {
+      "rank": 131,
+      "truth_score": 0.02384987659752369,
+      "top": "XWNWZ BPPXFQ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 26
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 66,
+      "truth_score": 0.18888042867183685,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 203,
+      "truth_score": 0.1959444284439087,
+      "top": "GDQDK UGHPYM",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 65
+     },
+     "ncc/free_geometry": {
+      "rank": 206,
+      "truth_score": 0.1959444284439087,
+      "top": "GDQDK UGHPYM",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 66
+     },
+     "ncc_hp/oracle": {
+      "rank": 62,
+      "truth_score": 0.16529861092567444,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 126,
+      "truth_score": 0.16862976551055908,
+      "top": "GDQDK UGHPYM",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 40
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 130,
+      "truth_score": 0.16862976551055908,
+      "top": "GDQDK UGHPYM",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 42
+     },
+     "whitened/oracle": {
+      "rank": 70,
+      "truth_score": 0.027517380192875862,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 83,
+      "truth_score": 0.028489360585808754,
+      "top": "QDQOH RSSWTV",
+      "top1_char_error": 0.9090909090909091,
+      "localised": true,
+      "randoms_above": 10
+     },
+     "whitened/free_geometry": {
+      "rank": 86,
+      "truth_score": 0.028489360585808754,
+      "top": "QDQOH RSSWTV",
+      "top1_char_error": 0.9090909090909091,
+      "localised": true,
+      "randoms_above": 12
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 85,
+      "truth_score": 0.13043375313282013,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "ncc/known_geometry": {
+      "rank": 92,
+      "truth_score": 0.13875812292099,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "ncc/free_geometry": {
+      "rank": 118,
+      "truth_score": 0.13875812292099,
+      "top": "BVTLUG KQJPG",
+      "top1_char_error": 0.9090909090909091,
+      "localised": true,
+      "randoms_above": 5
+     },
+     "ncc_hp/oracle": {
+      "rank": 91,
+      "truth_score": 0.11854279041290283,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 5
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 95,
+      "truth_score": 0.12666577100753784,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 100,
+      "truth_score": 0.12666577100753784,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 4
+     },
+     "whitened/oracle": {
+      "rank": 83,
+      "truth_score": 0.030350493267178535,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "whitened/known_geometry": {
+      "rank": 91,
+      "truth_score": 0.032080959528684616,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/free_geometry": {
+      "rank": 92,
+      "truth_score": 0.032080959528684616,
+      "top": "BRJZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 2
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 85,
+      "truth_score": 0.12227533012628555,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 113,
+      "truth_score": 0.1291864961385727,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 7
+     },
+     "ncc/free_geometry": {
+      "rank": 115,
+      "truth_score": 0.1291864961385727,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 9
+     },
+     "ncc_hp/oracle": {
+      "rank": 88,
+      "truth_score": 0.11133550107479095,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 105,
+      "truth_score": 0.11657815426588058,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 106,
+      "truth_score": 0.11657815426588058,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "whitened/oracle": {
+      "rank": 97,
+      "truth_score": 0.025294704362750053,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 115,
+      "truth_score": 0.02653118409216404,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 4
+     },
+     "whitened/free_geometry": {
+      "rank": 115,
+      "truth_score": 0.02653118409216404,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 4
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 142,
+      "truth_score": 0.1880529522895813,
+      "top": "MHOZYZ ZURFG",
+      "top1_char_error": 0.9090909090909091,
+      "localised": true,
+      "randoms_above": 26
+     },
+     "ncc/known_geometry": {
+      "rank": 235,
+      "truth_score": 0.19032005965709686,
+      "top": "RXURMR AHGTL",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 107
+     },
+     "ncc/free_geometry": {
+      "rank": 272,
+      "truth_score": 0.19032005965709686,
+      "top": "RXURMR AHGTL",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 124
+     },
+     "ncc_hp/oracle": {
+      "rank": 140,
+      "truth_score": 0.16492530703544617,
+      "top": "MHOZYZ ZURFG",
+      "top1_char_error": 0.9090909090909091,
+      "localised": true,
+      "randoms_above": 21
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 206,
+      "truth_score": 0.16732025146484375,
+      "top": "RXURMR AHGTL",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 75
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 211,
+      "truth_score": 0.16732025146484375,
+      "top": "RXURMR AHGTL",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 80
+     },
+     "whitened/oracle": {
+      "rank": 91,
+      "truth_score": 0.02820705622434616,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 5
+     },
+     "whitened/known_geometry": {
+      "rank": 142,
+      "truth_score": 0.028767546638846397,
+      "top": "GHKROF QIEYA",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 49
+     },
+     "whitened/free_geometry": {
+      "rank": 145,
+      "truth_score": 0.028767546638846397,
+      "top": "GHKROF QIEYA",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 52
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 0,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 113,
+      "truth_score": 0.12998640537261963,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 121,
+      "truth_score": 0.13723124563694,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/free_geometry": {
+      "rank": 128,
+      "truth_score": 0.13723124563694,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 5
+     },
+     "ncc_hp/oracle": {
+      "rank": 109,
+      "truth_score": 0.11884299665689468,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 117,
+      "truth_score": 0.12571850419044495,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 119,
+      "truth_score": 0.12571850419044495,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "whitened/oracle": {
+      "rank": 107,
+      "truth_score": 0.029032133519649506,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/known_geometry": {
+      "rank": 106,
+      "truth_score": 0.0304805189371109,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/free_geometry": {
+      "rank": 107,
+      "truth_score": 0.0304805189371109,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 2
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 1,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 132,
+      "truth_score": 0.11092054843902588,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/known_geometry": {
+      "rank": 141,
+      "truth_score": 0.11222141981124878,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 8
+     },
+     "ncc/free_geometry": {
+      "rank": 145,
+      "truth_score": 0.11222141981124878,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 11
+     },
+     "ncc_hp/oracle": {
+      "rank": 138,
+      "truth_score": 0.10163543373346329,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 158,
+      "truth_score": 0.10260489583015442,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 13
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 159,
+      "truth_score": 0.10260489583015442,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 14
+     },
+     "whitened/oracle": {
+      "rank": 131,
+      "truth_score": 0.022369181737303734,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/known_geometry": {
+      "rank": 145,
+      "truth_score": 0.022625340148806572,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 13
+     },
+     "whitened/free_geometry": {
+      "rank": 145,
+      "truth_score": 0.022625340148806572,
+      "top": "XVCNMX AEB QLGUY",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 13
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 2,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 169,
+      "truth_score": 0.18365687131881714,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 43
+     },
+     "ncc/known_geometry": {
+      "rank": 181,
+      "truth_score": 0.18515680730342865,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 53
+     },
+     "ncc/free_geometry": {
+      "rank": 183,
+      "truth_score": 0.18515680730342865,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 55
+     },
+     "ncc_hp/oracle": {
+      "rank": 161,
+      "truth_score": 0.16582359373569489,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 35
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 165,
+      "truth_score": 0.16669012606143951,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 40
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 165,
+      "truth_score": 0.16669012606143951,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 40
+     },
+     "whitened/oracle": {
+      "rank": 128,
+      "truth_score": 0.029433825984597206,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 10
+     },
+     "whitened/known_geometry": {
+      "rank": 135,
+      "truth_score": 0.029611535370349884,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 12
+     },
+     "whitened/free_geometry": {
+      "rank": 135,
+      "truth_score": 0.029611535370349884,
+      "top": "OGVXON AAG JFSKS",
+      "top1_char_error": 0.9285714285714286,
+      "localised": true,
+      "randoms_above": 12
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "DISC",
+    "patch": 0,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 242,
+      "truth_score": 0.07765114307403564,
+      "top": "WHJK",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 176
+     },
+     "ncc/known_geometry": {
+      "rank": 95,
+      "truth_score": 0.1481267809867859,
+      "top": "ISFC",
+      "top1_char_error": 0.75,
+      "localised": true,
+      "randoms_above": 50
+     },
+     "ncc/free_geometry": {
+      "rank": 90,
+      "truth_score": 0.15408678352832794,
+      "top": "DMSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 47
+     },
+     "ncc_hp/oracle": {
+      "rank": 248,
+      "truth_score": 0.07161375135183334,
+      "top": "WHJK",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 181
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 86,
+      "truth_score": 0.11497759073972702,
+      "top": "JZCS",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 46
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 83,
+      "truth_score": 0.12028198689222336,
+      "top": "DIJC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 44
+     },
+     "whitened/oracle": {
+      "rank": 266,
+      "truth_score": 0.01633293181657791,
+      "top": "WHJK",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 191
+     },
+     "whitened/known_geometry": {
+      "rank": 51,
+      "truth_score": 0.030828386545181274,
+      "top": "JZCS",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 17
+     },
+     "whitened/free_geometry": {
+      "rank": 60,
+      "truth_score": 0.030828386545181274,
+      "top": "JZCS",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 25
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "DISC",
+    "patch": 1,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 84,
+      "truth_score": 0.13896094262599945,
+      "top": "ECZR",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 39
+     },
+     "ncc/known_geometry": {
+      "rank": 210,
+      "truth_score": 0.1526949554681778,
+      "top": "JQDV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 152
+     },
+     "ncc/free_geometry": {
+      "rank": 176,
+      "truth_score": 0.16113333404064178,
+      "top": "JLIF",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 122
+     },
+     "ncc_hp/oracle": {
+      "rank": 89,
+      "truth_score": 0.11508669704198837,
+      "top": "AQYZ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 42
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 214,
+      "truth_score": 0.12394703179597855,
+      "top": "JQDV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 152
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 95,
+      "truth_score": 0.1354564130306244,
+      "top": "JLIF",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 59
+     },
+     "whitened/oracle": {
+      "rank": 83,
+      "truth_score": 0.02486557513475418,
+      "top": "AQYZ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 41
+     },
+     "whitened/known_geometry": {
+      "rank": 212,
+      "truth_score": 0.02708212472498417,
+      "top": "JQDV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 151
+     },
+     "whitened/free_geometry": {
+      "rank": 124,
+      "truth_score": 0.03007364273071289,
+      "top": "JQDV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 73
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "DISC",
+    "patch": 2,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 141,
+      "truth_score": 0.23004569113254547,
+      "top": "CMJJ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 98
+     },
+     "ncc/known_geometry": {
+      "rank": 197,
+      "truth_score": 0.24187834560871124,
+      "top": "QJMJ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 143
+     },
+     "ncc/free_geometry": {
+      "rank": 260,
+      "truth_score": 0.24405090510845184,
+      "top": "QJMJ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 191
+     },
+     "ncc_hp/oracle": {
+      "rank": 126,
+      "truth_score": 0.18927215039730072,
+      "top": "CMJJ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 81
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 155,
+      "truth_score": 0.1967480331659317,
+      "top": "OQOW",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 103
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 226,
+      "truth_score": 0.1967480331659317,
+      "top": "OQOW",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 162
+     },
+     "whitened/oracle": {
+      "rank": 75,
+      "truth_score": 0.03215157613158226,
+      "top": "CMJJ",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 27
+     },
+     "whitened/known_geometry": {
+      "rank": 103,
+      "truth_score": 0.03400760143995285,
+      "top": "OWMN",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 51
+     },
+     "whitened/free_geometry": {
+      "rank": 182,
+      "truth_score": 0.03400760143995285,
+      "top": "OWMN",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 124
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 0,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 40,
+      "truth_score": 0.12549635767936707,
+      "top": "KQXV ZWPJJ",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 96,
+      "truth_score": 0.1377575546503067,
+      "top": "XJJV RDTUZ",
+      "top1_char_error": 0.8888888888888888,
+      "localised": true,
+      "randoms_above": 11
+     },
+     "ncc/free_geometry": {
+      "rank": 106,
+      "truth_score": 0.13891009986400604,
+      "top": "ETTC WVGLX",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 21
+     },
+     "ncc_hp/oracle": {
+      "rank": 41,
+      "truth_score": 0.11493539810180664,
+      "top": "KUXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 85,
+      "truth_score": 0.12523482739925385,
+      "top": "KQJV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 5
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 102,
+      "truth_score": 0.12566672265529633,
+      "top": "KQXV ZWPJJ",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 13
+     },
+     "whitened/oracle": {
+      "rank": 44,
+      "truth_score": 0.029218412935733795,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 100,
+      "truth_score": 0.031086277216672897,
+      "top": "QKIO CNCML",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 14
+     },
+     "whitened/free_geometry": {
+      "rank": 116,
+      "truth_score": 0.03117290884256363,
+      "top": "QKIO CNCML",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 23
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 1,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 69,
+      "truth_score": 0.13822191953659058,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 65,
+      "truth_score": 0.1424066424369812,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 65,
+      "truth_score": 0.1424066424369812,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 68,
+      "truth_score": 0.12199072539806366,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 68,
+      "truth_score": 0.12554003298282623,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 68,
+      "truth_score": 0.12554003298282623,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 73,
+      "truth_score": 0.026677556335926056,
+      "top": "KQXV ZWPJA",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 72,
+      "truth_score": 0.027831420302391052,
+      "top": "KQXV ZWPJA",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 72,
+      "truth_score": 0.027831420302391052,
+      "top": "KQXV ZWPJA",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 2,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 79,
+      "truth_score": 0.21048752963542938,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 7
+     },
+     "ncc/known_geometry": {
+      "rank": 104,
+      "truth_score": 0.21755948662757874,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 15
+     },
+     "ncc/free_geometry": {
+      "rank": 99,
+      "truth_score": 0.21852728724479675,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 12
+     },
+     "ncc_hp/oracle": {
+      "rank": 75,
+      "truth_score": 0.1807713359594345,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 7
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 95,
+      "truth_score": 0.1869460791349411,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 18
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 95,
+      "truth_score": 0.1869460791349411,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 18
+     },
+     "whitened/oracle": {
+      "rank": 55,
+      "truth_score": 0.03090156987309456,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 4
+     },
+     "whitened/known_geometry": {
+      "rank": 83,
+      "truth_score": 0.03219788521528244,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 12
+     },
+     "whitened/free_geometry": {
+      "rank": 83,
+      "truth_score": 0.03219788521528244,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 12
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "MAJOR MARCEL",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 43,
+      "truth_score": 0.25678837299346924,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 45,
+      "truth_score": 0.2590744197368622,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 45,
+      "truth_score": 0.2590744197368622,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 39,
+      "truth_score": 0.23311983048915863,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 46,
+      "truth_score": 0.23567332327365875,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 46,
+      "truth_score": 0.23567332327365875,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 48,
+      "truth_score": 0.0572085976600647,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 55,
+      "truth_score": 0.057663481682538986,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 55,
+      "truth_score": 0.057663481682538986,
+      "top": "MWJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "MAJOR MARCEL",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 70,
+      "truth_score": 0.24311095476150513,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 81,
+      "truth_score": 0.24714310467243195,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 59,
+      "truth_score": 0.24851007759571075,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 74,
+      "truth_score": 0.21741464734077454,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 77,
+      "truth_score": 0.22008556127548218,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 86,
+      "truth_score": 0.22008556127548218,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 69,
+      "truth_score": 0.04897487908601761,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 74,
+      "truth_score": 0.049430228769779205,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 69,
+      "truth_score": 0.04971705377101898,
+      "top": "AAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "MAJOR MARCEL",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 39,
+      "truth_score": 0.31579214334487915,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 41,
+      "truth_score": 0.3169522285461426,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 41,
+      "truth_score": 0.3169522285461426,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 37,
+      "truth_score": 0.2805166244506836,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 34,
+      "truth_score": 0.2820177972316742,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 34,
+      "truth_score": 0.2820177972316742,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 42,
+      "truth_score": 0.052582576870918274,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 36,
+      "truth_score": 0.05314526706933975,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 36,
+      "truth_score": 0.05314526706933975,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "BRAZEL RANCH",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 48,
+      "truth_score": 0.25632303953170776,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 46,
+      "truth_score": 0.26000329852104187,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 47,
+      "truth_score": 0.26000329852104187,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 50,
+      "truth_score": 0.23311419785022736,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 58,
+      "truth_score": 0.23679375648498535,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 58,
+      "truth_score": 0.23679375648498535,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 48,
+      "truth_score": 0.05859963223338127,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 49,
+      "truth_score": 0.05939805507659912,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 49,
+      "truth_score": 0.05939805507659912,
+      "top": "BWAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "BRAZEL RANCH",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 46,
+      "truth_score": 0.24927514791488647,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 63,
+      "truth_score": 0.25209277868270874,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 63,
+      "truth_score": 0.25209277868270874,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 53,
+      "truth_score": 0.2260817140340805,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 58,
+      "truth_score": 0.22843307256698608,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 58,
+      "truth_score": 0.22843307256698608,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 55,
+      "truth_score": 0.052677568048238754,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 61,
+      "truth_score": 0.05327751114964485,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 61,
+      "truth_score": 0.05327751114964485,
+      "top": "BRAZEL RANCQ",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "BRAZEL RANCH",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 78,
+      "truth_score": 0.3151859641075134,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 86,
+      "truth_score": 0.31576207280158997,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 87,
+      "truth_score": 0.31576207280158997,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/oracle": {
+      "rank": 69,
+      "truth_score": 0.2803731858730316,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 77,
+      "truth_score": 0.2812143564224243,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 77,
+      "truth_score": 0.2812143564224243,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 50,
+      "truth_score": 0.053418587893247604,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 52,
+      "truth_score": 0.05379081889986992,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 52,
+      "truth_score": 0.05379081889986992,
+      "top": "BRAZEL RMNCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 0,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 59,
+      "truth_score": 0.2564169466495514,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 61,
+      "truth_score": 0.2599610686302185,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 61,
+      "truth_score": 0.2599610686302185,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 60,
+      "truth_score": 0.2345373034477234,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 67,
+      "truth_score": 0.23800243437290192,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 67,
+      "truth_score": 0.23800243437290192,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 62,
+      "truth_score": 0.057387083768844604,
+      "top": "EVGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 64,
+      "truth_score": 0.05826595798134804,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 64,
+      "truth_score": 0.05826595798134804,
+      "top": "EUGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 1,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 56,
+      "truth_score": 0.24024054408073425,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 63,
+      "truth_score": 0.2403888702392578,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 63,
+      "truth_score": 0.2403888702392578,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 66,
+      "truth_score": 0.2190534919500351,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 66,
+      "truth_score": 0.21932478249073029,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 66,
+      "truth_score": 0.21932478249073029,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 65,
+      "truth_score": 0.04975699633359909,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 75,
+      "truth_score": 0.04981955885887146,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 75,
+      "truth_score": 0.04981955885887146,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 2,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 88,
+      "truth_score": 0.3115355372428894,
+      "top": "EMGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/known_geometry": {
+      "rank": 92,
+      "truth_score": 0.31216150522232056,
+      "top": "EMGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/free_geometry": {
+      "rank": 92,
+      "truth_score": 0.31216150522232056,
+      "top": "EMGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/oracle": {
+      "rank": 87,
+      "truth_score": 0.2828170955181122,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 92,
+      "truth_score": 0.2830074727535248,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 92,
+      "truth_score": 0.2830074727535248,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/oracle": {
+      "rank": 75,
+      "truth_score": 0.054800957441329956,
+      "top": "OIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 81,
+      "truth_score": 0.054800957441329956,
+      "top": "OIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 81,
+      "truth_score": 0.054800957441329956,
+      "top": "OIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "DISC",
+    "patch": 0,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 139,
+      "truth_score": 0.20925576984882355,
+      "top": "WFPV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 94
+     },
+     "ncc/known_geometry": {
+      "rank": 130,
+      "truth_score": 0.23817943036556244,
+      "top": "HHZD",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 81
+     },
+     "ncc/free_geometry": {
+      "rank": 89,
+      "truth_score": 0.2447383850812912,
+      "top": "DIJC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 42
+     },
+     "ncc_hp/oracle": {
+      "rank": 156,
+      "truth_score": 0.18244127929210663,
+      "top": "WFPV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 111
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 149,
+      "truth_score": 0.19941338896751404,
+      "top": "XKDD",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 99
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 65,
+      "truth_score": 0.20775684714317322,
+      "top": "KUUI",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 33
+     },
+     "whitened/oracle": {
+      "rank": 184,
+      "truth_score": 0.04356544092297554,
+      "top": "XSSR",
+      "top1_char_error": 0.75,
+      "localised": true,
+      "randoms_above": 133
+     },
+     "whitened/known_geometry": {
+      "rank": 200,
+      "truth_score": 0.04700220003724098,
+      "top": "ICJB",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 137
+     },
+     "whitened/free_geometry": {
+      "rank": 61,
+      "truth_score": 0.050316497683525085,
+      "top": "KUUI",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 29
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "DISC",
+    "patch": 1,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 26,
+      "truth_score": 0.2680775225162506,
+      "top": "AIPZ",
+      "top1_char_error": 0.75,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "ncc/known_geometry": {
+      "rank": 44,
+      "truth_score": 0.2753054201602936,
+      "top": "SCHV",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 15
+     },
+     "ncc/free_geometry": {
+      "rank": 50,
+      "truth_score": 0.2801549732685089,
+      "top": "DISP",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 16
+     },
+     "ncc_hp/oracle": {
+      "rank": 24,
+      "truth_score": 0.22461527585983276,
+      "top": "DISD",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 44,
+      "truth_score": 0.22923879325389862,
+      "top": "JQNF",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 16
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 50,
+      "truth_score": 0.23341751098632812,
+      "top": "DISV",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 17
+     },
+     "whitened/oracle": {
+      "rank": 19,
+      "truth_score": 0.05172506347298622,
+      "top": "DITC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "whitened/known_geometry": {
+      "rank": 51,
+      "truth_score": 0.05280322581529617,
+      "top": "JQNF",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 21
+     },
+     "whitened/free_geometry": {
+      "rank": 37,
+      "truth_score": 0.054547809064388275,
+      "top": "DISP",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 12
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "DISC",
+    "patch": 2,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 68,
+      "truth_score": 0.35123535990715027,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 34
+     },
+     "ncc/known_geometry": {
+      "rank": 67,
+      "truth_score": 0.3568701446056366,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 36
+     },
+     "ncc/free_geometry": {
+      "rank": 67,
+      "truth_score": 0.3568701446056366,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 36
+     },
+     "ncc_hp/oracle": {
+      "rank": 53,
+      "truth_score": 0.2932473123073578,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 17
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 52,
+      "truth_score": 0.2965385913848877,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 20
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 52,
+      "truth_score": 0.2965385913848877,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 20
+     },
+     "whitened/oracle": {
+      "rank": 20,
+      "truth_score": 0.05619370937347412,
+      "top": "OISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 25,
+      "truth_score": 0.0569927953183651,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "whitened/free_geometry": {
+      "rank": 25,
+      "truth_score": 0.0569927953183651,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "KQXV ZWPJT",
+    "patch": 0,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 17,
+      "truth_score": 0.25153809785842896,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 37,
+      "truth_score": 0.25708141922950745,
+      "top": "KQJV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 50,
+      "truth_score": 0.2576211988925934,
+      "top": "KQXV ZWPJJ",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 19,
+      "truth_score": 0.22883179783821106,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 46,
+      "truth_score": 0.23385678231716156,
+      "top": "KQJV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 55,
+      "truth_score": 0.23385678231716156,
+      "top": "KQJV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 19,
+      "truth_score": 0.057602785527706146,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 39,
+      "truth_score": 0.05868560075759888,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 40,
+      "truth_score": 0.05868560075759888,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "KQXV ZWPJT",
+    "patch": 1,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 32,
+      "truth_score": 0.26443469524383545,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 31,
+      "truth_score": 0.266375333070755,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 31,
+      "truth_score": 0.266375333070755,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 36,
+      "truth_score": 0.23546898365020752,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 32,
+      "truth_score": 0.23728877305984497,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 32,
+      "truth_score": 0.23728877305984497,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 47,
+      "truth_score": 0.054251160472631454,
+      "top": "KQYV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 45,
+      "truth_score": 0.054886940866708755,
+      "top": "KQXV ZWPJK",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 45,
+      "truth_score": 0.054886940866708755,
+      "top": "KQXV ZWPJK",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x2",
+    "phrase": "KQXV ZWPJT",
+    "patch": 2,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 36,
+      "truth_score": 0.33555537462234497,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 48,
+      "truth_score": 0.33858227729797363,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 48,
+      "truth_score": 0.33858227729797363,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 36,
+      "truth_score": 0.2942390739917755,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 43,
+      "truth_score": 0.29689642786979675,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 43,
+      "truth_score": 0.29689642786979675,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 29,
+      "truth_score": 0.056232988834381104,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 31,
+      "truth_score": 0.05681755766272545,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 31,
+      "truth_score": 0.05681755766272545,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "MAJOR MARCEL",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 23,
+      "truth_score": 0.4689633846282959,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.46910661458969116,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.46910661458969116,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 25,
+      "truth_score": 0.4327407479286194,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 21,
+      "truth_score": 0.43345195055007935,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 21,
+      "truth_score": 0.43345195055007935,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 26,
+      "truth_score": 0.11291365325450897,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 25,
+      "truth_score": 0.11299173533916473,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 25,
+      "truth_score": 0.11299173533916473,
+      "top": "MHJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "MAJOR MARCEL",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 18,
+      "truth_score": 0.4600773751735687,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 18,
+      "truth_score": 0.46146994829177856,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 18,
+      "truth_score": 0.46146994829177856,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 16,
+      "truth_score": 0.4196447432041168,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 18,
+      "truth_score": 0.42008909583091736,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 18,
+      "truth_score": 0.42008909583091736,
+      "top": "WAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 17,
+      "truth_score": 0.1030551865696907,
+      "top": "BAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 20,
+      "truth_score": 0.10313841700553894,
+      "top": "BAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 20,
+      "truth_score": 0.10313841700553894,
+      "top": "BAJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "MAJOR MARCEL",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 19,
+      "truth_score": 0.5226859450340271,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 19,
+      "truth_score": 0.5226859450340271,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 19,
+      "truth_score": 0.5226859450340271,
+      "top": "MMJOR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 22,
+      "truth_score": 0.475969135761261,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.475969135761261,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.475969135761261,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 15,
+      "truth_score": 0.10236995667219162,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 13,
+      "truth_score": 0.10261110961437225,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 13,
+      "truth_score": 0.10261110961437225,
+      "top": "MAJOR MAMCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "BRAZEL RANCH",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 16,
+      "truth_score": 0.46879133582115173,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 15,
+      "truth_score": 0.47024089097976685,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 15,
+      "truth_score": 0.47024089097976685,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 22,
+      "truth_score": 0.433059424161911,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 20,
+      "truth_score": 0.43422579765319824,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 20,
+      "truth_score": 0.43422579765319824,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 23,
+      "truth_score": 0.11461248248815536,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 23,
+      "truth_score": 0.11482079327106476,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 23,
+      "truth_score": 0.11482079327106476,
+      "top": "XRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "BRAZEL RANCH",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 8,
+      "truth_score": 0.4643624722957611,
+      "top": "ARAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 7,
+      "truth_score": 0.46555662155151367,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 7,
+      "truth_score": 0.46555662155151367,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 13,
+      "truth_score": 0.4269218146800995,
+      "top": "ARAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 12,
+      "truth_score": 0.4279601573944092,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 12,
+      "truth_score": 0.4279601573944092,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 12,
+      "truth_score": 0.10702846199274063,
+      "top": "ARAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 15,
+      "truth_score": 0.10726298391819,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 15,
+      "truth_score": 0.10726298391819,
+      "top": "BRAZXL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "BRAZEL RANCH",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 22,
+      "truth_score": 0.5223998427391052,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.5223998427391052,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.5223998427391052,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 20,
+      "truth_score": 0.4761681854724884,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 20,
+      "truth_score": 0.4761681854724884,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 20,
+      "truth_score": 0.4761681854724884,
+      "top": "BMAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 20,
+      "truth_score": 0.10348965972661972,
+      "top": "GRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 17,
+      "truth_score": 0.10368596017360687,
+      "top": "ORAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 17,
+      "truth_score": 0.10368596017360687,
+      "top": "ORAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 0,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 22,
+      "truth_score": 0.46981188654899597,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 19,
+      "truth_score": 0.47074511647224426,
+      "top": "EIJHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 19,
+      "truth_score": 0.47074511647224426,
+      "top": "EIJHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 22,
+      "truth_score": 0.4359600841999054,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.43689849972724915,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.43689849972724915,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 27,
+      "truth_score": 0.11361639201641083,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 29,
+      "truth_score": 0.11381437629461288,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 29,
+      "truth_score": 0.11381437629461288,
+      "top": "XIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 1,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 16,
+      "truth_score": 0.45988157391548157,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 16,
+      "truth_score": 0.45988157391548157,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 16,
+      "truth_score": 0.45988157391548157,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 14,
+      "truth_score": 0.4246867597103119,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 14,
+      "truth_score": 0.4246867597103119,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 14,
+      "truth_score": 0.4246867597103119,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 20,
+      "truth_score": 0.10413723438978195,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 20,
+      "truth_score": 0.10413723438978195,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 20,
+      "truth_score": 0.10413723438978195,
+      "top": "EIGHTH AIR FORJE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 2,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 42,
+      "truth_score": 0.519982099533081,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 42,
+      "truth_score": 0.519982099533081,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 42,
+      "truth_score": 0.519982099533081,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 39,
+      "truth_score": 0.4805341362953186,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 39,
+      "truth_score": 0.4805341362953186,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 39,
+      "truth_score": 0.4805341362953186,
+      "top": "EEGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 22,
+      "truth_score": 0.10517056286334991,
+      "top": "GIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.10517056286334991,
+      "top": "GIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.10517056286334991,
+      "top": "GIGHTH AIR FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "DISC",
+    "patch": 0,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 22,
+      "truth_score": 0.43634963035583496,
+      "top": "XISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/known_geometry": {
+      "rank": 19,
+      "truth_score": 0.443988174200058,
+      "top": "SISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/free_geometry": {
+      "rank": 19,
+      "truth_score": 0.4456268548965454,
+      "top": "SISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 26,
+      "truth_score": 0.3817095160484314,
+      "top": "NYHD",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.38913100957870483,
+      "top": "SISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 31,
+      "truth_score": 0.38913100957870483,
+      "top": "SISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "whitened/oracle": {
+      "rank": 30,
+      "truth_score": 0.09768093377351761,
+      "top": "NYHD",
+      "top1_char_error": 1.0,
+      "localised": true,
+      "randoms_above": 4
+     },
+     "whitened/known_geometry": {
+      "rank": 27,
+      "truth_score": 0.09904274344444275,
+      "top": "DTSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 3
+     },
+     "whitened/free_geometry": {
+      "rank": 31,
+      "truth_score": 0.09904274344444275,
+      "top": "DTSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 3
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "DISC",
+    "patch": 1,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 2,
+      "truth_score": 0.4841137230396271,
+      "top": "DIYC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 5,
+      "truth_score": 0.4870707094669342,
+      "top": "ZISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 3,
+      "truth_score": 0.4894731342792511,
+      "top": "DZSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 1,
+      "truth_score": 0.41763943433761597,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 3,
+      "truth_score": 0.41989538073539734,
+      "top": "ZISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 3,
+      "truth_score": 0.4202267825603485,
+      "top": "DZSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 2,
+      "truth_score": 0.10505203902721405,
+      "top": "DISD",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 3,
+      "truth_score": 0.10556460916996002,
+      "top": "DISD",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 3,
+      "truth_score": 0.10573500394821167,
+      "top": "DZSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "DISC",
+    "patch": 2,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 17,
+      "truth_score": 0.546229898929596,
+      "top": "DZSC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 18,
+      "truth_score": 0.5485516786575317,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 18,
+      "truth_score": 0.5485516786575317,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 15,
+      "truth_score": 0.4712766110897064,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 16,
+      "truth_score": 0.47283321619033813,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 16,
+      "truth_score": 0.47283321619033813,
+      "top": "DESC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 4,
+      "truth_score": 0.10394535958766937,
+      "top": "OISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 4,
+      "truth_score": 0.10433418303728104,
+      "top": "OISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 4,
+      "truth_score": 0.10433418303728104,
+      "top": "OISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "KQXV ZWPJT",
+    "patch": 0,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 2,
+      "truth_score": 0.46476617455482483,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 2,
+      "truth_score": 0.4670496881008148,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 2,
+      "truth_score": 0.4670496881008148,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 3,
+      "truth_score": 0.4281627833843231,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 3,
+      "truth_score": 0.4305357038974762,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 3,
+      "truth_score": 0.4305357038974762,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 3,
+      "truth_score": 0.11388809233903885,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 5,
+      "truth_score": 0.11426442116498947,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 5,
+      "truth_score": 0.11426442116498947,
+      "top": "XQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "KQXV ZWPJT",
+    "patch": 1,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 10,
+      "truth_score": 0.4765850603580475,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 11,
+      "truth_score": 0.4770393669605255,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 11,
+      "truth_score": 0.4770393669605255,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 9,
+      "truth_score": 0.4333873689174652,
+      "top": "AQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 11,
+      "truth_score": 0.43389561772346497,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 11,
+      "truth_score": 0.43389561772346497,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 13,
+      "truth_score": 0.1089666411280632,
+      "top": "KQYV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 15,
+      "truth_score": 0.10925325006246567,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 15,
+      "truth_score": 0.10925325006246567,
+      "top": "ZQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "blur x4",
+    "phrase": "KQXV ZWPJT",
+    "patch": 2,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 18,
+      "truth_score": 0.5374138355255127,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 19,
+      "truth_score": 0.5386362671852112,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 19,
+      "truth_score": 0.5386362671852112,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 18,
+      "truth_score": 0.4857161045074463,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 18,
+      "truth_score": 0.48694074153900146,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 18,
+      "truth_score": 0.48694074153900146,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 14,
+      "truth_score": 0.10652391612529755,
+      "top": "GQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 15,
+      "truth_score": 0.10674921423196793,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 15,
+      "truth_score": 0.10674921423196793,
+      "top": "OQXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 22,
+      "truth_score": 0.1399822235107422,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 22,
+      "truth_score": 0.1399822235107422,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 22,
+      "truth_score": 0.1399822235107422,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 21,
+      "truth_score": 0.11983966082334518,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 21,
+      "truth_score": 0.11983966082334518,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 21,
+      "truth_score": 0.11983966082334518,
+      "top": "MAJOY MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12484338879585266,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12484338879585266,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12484338879585266,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 24,
+      "truth_score": 0.19304974377155304,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 24,
+      "truth_score": 0.19304974377155304,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 24,
+      "truth_score": 0.19304974377155304,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 23,
+      "truth_score": 0.16391249001026154,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 23,
+      "truth_score": 0.16391249001026154,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 23,
+      "truth_score": 0.16391249001026154,
+      "top": "MAJOR MAICEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.1315949410200119,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.1315949410200119,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.1315949410200119,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "MAJOR MARCEL",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 16,
+      "truth_score": 0.19614249467849731,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 16,
+      "truth_score": 0.19614249467849731,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 16,
+      "truth_score": 0.19614249467849731,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 15,
+      "truth_score": 0.1729157269001007,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 15,
+      "truth_score": 0.1729157269001007,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 15,
+      "truth_score": 0.1729157269001007,
+      "top": "MAJQR MARCEL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.114441879093647,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.114441879093647,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.114441879093647,
+      "top": "MAJOR MARCEL",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 0,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 49,
+      "truth_score": 0.11901140213012695,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 49,
+      "truth_score": 0.11901140213012695,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 49,
+      "truth_score": 0.11901140213012695,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 48,
+      "truth_score": 0.10231471061706543,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 48,
+      "truth_score": 0.10231471061706543,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 48,
+      "truth_score": 0.10231471061706543,
+      "top": "BRAZEL RANJH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12921786308288574,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12921786308288574,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12921786308288574,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 1,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 30,
+      "truth_score": 0.19731405377388,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 30,
+      "truth_score": 0.19731405377388,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 30,
+      "truth_score": 0.19731405377388,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 30,
+      "truth_score": 0.1692543774843216,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 30,
+      "truth_score": 0.1692543774843216,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 30,
+      "truth_score": 0.1692543774843216,
+      "top": "BRAZEL RANCP",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12962409853935242,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12962409853935242,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12962409853935242,
+      "top": "BRAZEL RANCH",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "BRAZEL RANCH",
+    "patch": 2,
+    "n": 476,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 43,
+      "truth_score": 0.16494683921337128,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 44,
+      "truth_score": 0.16494683921337128,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 44,
+      "truth_score": 0.16494683921337128,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 39,
+      "truth_score": 0.14840997755527496,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 39,
+      "truth_score": 0.14840997755527496,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 39,
+      "truth_score": 0.14840997755527496,
+      "top": "BRAZEL RANCL",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 2,
+      "truth_score": 0.11476580053567886,
+      "top": "KRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 2,
+      "truth_score": 0.11476580053567886,
+      "top": "KRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 2,
+      "truth_score": 0.11476580053567886,
+      "top": "KRAZEL RANCH",
+      "top1_char_error": 0.09090909090909091,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 0,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 39,
+      "truth_score": 0.1402249038219452,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 39,
+      "truth_score": 0.1402249038219452,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 39,
+      "truth_score": 0.1402249038219452,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 38,
+      "truth_score": 0.12036851048469543,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 38,
+      "truth_score": 0.12036851048469543,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 38,
+      "truth_score": 0.12036851048469543,
+      "top": "EIGHTH AIR FOFCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12938344478607178,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12938344478607178,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12938344478607178,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 1,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 41,
+      "truth_score": 0.17623816430568695,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 41,
+      "truth_score": 0.17623816430568695,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 41,
+      "truth_score": 0.17623816430568695,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 40,
+      "truth_score": 0.15088680386543274,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 40,
+      "truth_score": 0.15088680386543274,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 40,
+      "truth_score": 0.15088680386543274,
+      "top": "EIGHTH AIR FORCK",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.13482044637203217,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.13482044637203217,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.13482044637203217,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "EIGHTH AIR FORCE",
+    "patch": 2,
+    "n": 551,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 44,
+      "truth_score": 0.19570320844650269,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 44,
+      "truth_score": 0.19570320844650269,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 44,
+      "truth_score": 0.19570320844650269,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 43,
+      "truth_score": 0.1761048287153244,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 43,
+      "truth_score": 0.1761048287153244,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 43,
+      "truth_score": 0.1761048287153244,
+      "top": "EIGHTH AII FORCE",
+      "top1_char_error": 0.07142857142857142,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.11667907983064651,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.11667907983064651,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.11667907983064651,
+      "top": "EIGHTH AIR FORCE",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "DISC",
+    "patch": 0,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 9,
+      "truth_score": 0.09262342005968094,
+      "top": "DIDC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 228,
+      "truth_score": 0.12702246010303497,
+      "top": "JAXO",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 147
+     },
+     "ncc/free_geometry": {
+      "rank": 165,
+      "truth_score": 0.16435758769512177,
+      "top": "GUDB",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 108
+     },
+     "ncc_hp/oracle": {
+      "rank": 11,
+      "truth_score": 0.0794888362288475,
+      "top": "DIDC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 235,
+      "truth_score": 0.0941973477602005,
+      "top": "JAXO",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 154
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 211,
+      "truth_score": 0.11628426611423492,
+      "top": "GUDB",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 149
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.11453139036893845,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.11453139036893845,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.11453139036893845,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "DISC",
+    "patch": 1,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 9,
+      "truth_score": 0.19448181986808777,
+      "top": "DIBC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/known_geometry": {
+      "rank": 9,
+      "truth_score": 0.19790948927402496,
+      "top": "JISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 13,
+      "truth_score": 0.19790948927402496,
+      "top": "JISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 4
+     },
+     "ncc_hp/oracle": {
+      "rank": 9,
+      "truth_score": 0.15479663014411926,
+      "top": "DIBC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 7,
+      "truth_score": 0.15984849631786346,
+      "top": "JISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 9,
+      "truth_score": 0.15984849631786346,
+      "top": "JISC",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 2
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.11633182317018509,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.11633182317018509,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.11633182317018509,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "DISC",
+    "patch": 2,
+    "n": 301,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 49,
+      "truth_score": 0.16382716596126556,
+      "top": "DISL",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 18
+     },
+     "ncc/known_geometry": {
+      "rank": 52,
+      "truth_score": 0.18197289109230042,
+      "top": "DITC",
+      "top1_char_error": 0.25,
+      "localised": false,
+      "randoms_above": 20
+     },
+     "ncc/free_geometry": {
+      "rank": 85,
+      "truth_score": 0.18883375823497772,
+      "top": "KBXB",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 47
+     },
+     "ncc_hp/oracle": {
+      "rank": 49,
+      "truth_score": 0.14353466033935547,
+      "top": "DISL",
+      "top1_char_error": 0.25,
+      "localised": true,
+      "randoms_above": 17
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 59,
+      "truth_score": 0.15720736980438232,
+      "top": "DWSC",
+      "top1_char_error": 0.25,
+      "localised": false,
+      "randoms_above": 26
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 62,
+      "truth_score": 0.16434641182422638,
+      "top": "KBXB",
+      "top1_char_error": 1.0,
+      "localised": false,
+      "randoms_above": 31
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.10589437186717987,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.10589437186717987,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.10589437186717987,
+      "top": "DISC",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 0,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 37,
+      "truth_score": 0.11026466637849808,
+      "top": "KJXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 38,
+      "truth_score": 0.11026466637849808,
+      "top": "KJXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc/free_geometry": {
+      "rank": 105,
+      "truth_score": 0.11026466637849808,
+      "top": "JJFV BWQWO",
+      "top1_char_error": 0.7777777777777778,
+      "localised": true,
+      "randoms_above": 20
+     },
+     "ncc_hp/oracle": {
+      "rank": 37,
+      "truth_score": 0.09309080988168716,
+      "top": "KJXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 38,
+      "truth_score": 0.09309080988168716,
+      "top": "KJXV ZWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 1
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 71,
+      "truth_score": 0.09309080988168716,
+      "top": "JJFV BWQWO",
+      "top1_char_error": 0.7777777777777778,
+      "localised": true,
+      "randoms_above": 11
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12232828885316849,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12232828885316849,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12232828885316849,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 1,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 36,
+      "truth_score": 0.16933883726596832,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 36,
+      "truth_score": 0.16933883726596832,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 36,
+      "truth_score": 0.16933883726596832,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 36,
+      "truth_score": 0.13994084298610687,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 36,
+      "truth_score": 0.13994084298610687,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 36,
+      "truth_score": 0.13994084298610687,
+      "top": "KQXV ZVPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12637150287628174,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12637150287628174,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12637150287628174,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   },
+   {
+    "condition": "sharp x1",
+    "phrase": "KQXV ZWPJT",
+    "patch": 2,
+    "n": 426,
+    "cells": {
+     "ncc/oracle": {
+      "rank": 27,
+      "truth_score": 0.20018504559993744,
+      "top": "KQXV ZWPJI",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/known_geometry": {
+      "rank": 27,
+      "truth_score": 0.20018504559993744,
+      "top": "KQXV ZWPJI",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc/free_geometry": {
+      "rank": 27,
+      "truth_score": 0.20018504559993744,
+      "top": "KQXV ZWPJI",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/oracle": {
+      "rank": 28,
+      "truth_score": 0.1723359376192093,
+      "top": "KQXV HWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/known_geometry": {
+      "rank": 28,
+      "truth_score": 0.1723359376192093,
+      "top": "KQXV HWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "ncc_hp/free_geometry": {
+      "rank": 28,
+      "truth_score": 0.1723359376192093,
+      "top": "KQXV HWPJT",
+      "top1_char_error": 0.1111111111111111,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/oracle": {
+      "rank": 1,
+      "truth_score": 0.12542667984962463,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/known_geometry": {
+      "rank": 1,
+      "truth_score": 0.12542667984962463,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     },
+     "whitened/free_geometry": {
+      "rank": 1,
+      "truth_score": 0.12542667984962463,
+      "top": "KQXV ZWPJT",
+      "top1_char_error": 0.0,
+      "localised": true,
+      "randoms_above": 0
+     }
+    }
+   }
+  ],
+  "summary": {
+   "blur x1": {
+    "ncc/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 85.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.3845598845598845,
+     "localised": 15
+    },
+    "ncc/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 121.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.6041606541606541,
+     "localised": 14
+    },
+    "ncc/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 118.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.6327801827801828,
+     "localised": 14
+    },
+    "ncc_hp/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 91.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.3845598845598845,
+     "localised": 15
+    },
+    "ncc_hp/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 117.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.5689754689754688,
+     "localised": 14
+    },
+    "ncc_hp/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 106.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.5189754689754689,
+     "localised": 15
+    },
+    "whitened/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 83.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.37849927849927845,
+     "localised": 15
+    },
+    "whitened/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 103.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.6221741221741222,
+     "localised": 14
+    },
+    "whitened/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 115.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.6221741221741222,
+     "localised": 14
+    }
+   },
+   "blur x2": {
+    "ncc/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 48.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.20620490620490622,
+     "localised": 15
+    },
+    "ncc/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 61.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.2228715728715729,
+     "localised": 15
+    },
+    "ncc/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 59.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc_hp/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 53.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 15
+    },
+    "ncc_hp/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 58.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.2228715728715729,
+     "localised": 15
+    },
+    "ncc_hp/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 58.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 15
+    },
+    "whitened/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 48.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.1562049062049062,
+     "localised": 15
+    },
+    "whitened/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 52.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.2228715728715729,
+     "localised": 15
+    },
+    "whitened/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 52.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 15
+    }
+   },
+   "blur x4": {
+    "ncc/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 18.0,
+     "top10": 4,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 18.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 18.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc_hp/oracle": {
+     "trials": 15,
+     "wins": 1,
+     "median_rank": 18.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.1562049062049062,
+     "localised": 15
+    },
+    "ncc_hp/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 18.0,
+     "top10": 2,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc_hp/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 18.0,
+     "top10": 2,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "whitened/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 17.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 15
+    },
+    "whitened/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 17.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "whitened/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 17.0,
+     "top10": 3,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    }
+   },
+   "sharp x1": {
+    "ncc/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 36.0,
+     "top10": 2,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 38.0,
+     "top10": 1,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 13
+    },
+    "ncc/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 39.0,
+     "top10": 0,
+     "mean_top1_char_error": 0.2673160173160173,
+     "localised": 13
+    },
+    "ncc_hp/oracle": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 36.0,
+     "top10": 1,
+     "mean_top1_char_error": 0.12287157287157288,
+     "localised": 15
+    },
+    "ncc_hp/known_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 38.0,
+     "top10": 1,
+     "mean_top1_char_error": 0.1728715728715729,
+     "localised": 13
+    },
+    "ncc_hp/free_geometry": {
+     "trials": 15,
+     "wins": 0,
+     "median_rank": 38.0,
+     "top10": 1,
+     "mean_top1_char_error": 0.2673160173160173,
+     "localised": 13
+    },
+    "whitened/oracle": {
+     "trials": 15,
+     "wins": 14,
+     "median_rank": 1.0,
+     "top10": 15,
+     "mean_top1_char_error": 0.006060606060606061,
+     "localised": 15
+    },
+    "whitened/known_geometry": {
+     "trials": 15,
+     "wins": 14,
+     "median_rank": 1.0,
+     "top10": 15,
+     "mean_top1_char_error": 0.006060606060606061,
+     "localised": 15
+    },
+    "whitened/free_geometry": {
+     "trials": 15,
+     "wins": 14,
+     "median_rank": 1.0,
+     "top10": 15,
+     "mean_top1_char_error": 0.006060606060606061,
+     "localised": 15
+    }
+   }
+  },
+  "blank_controls": [
+   {
+    "phrase": "MAJOR MARCEL",
+    "n": 476,
+    "ranks": {
+     "ncc": 254,
+     "ncc_hp": 351,
+     "whitened": 296
+    }
+   },
+   {
+    "phrase": "BRAZEL RANCH",
+    "n": 476,
+    "ranks": {
+     "ncc": 169,
+     "ncc_hp": 173,
+     "whitened": 191
+    }
+   },
+   {
+    "phrase": "EIGHTH AIR FORCE",
+    "n": 551,
+    "ranks": {
+     "ncc": 218,
+     "ncc_hp": 345,
+     "whitened": 365
+    }
+   },
+   {
+    "phrase": "DISC",
+    "n": 301,
+    "ranks": {
+     "ncc": 70,
+     "ncc_hp": 108,
+     "whitened": 85
+    }
+   },
+   {
+    "phrase": "KQXV ZWPJT",
+    "n": 426,
+    "ranks": {
+     "ncc": 224,
+     "ncc_hp": 355,
+     "whitened": 375
+    }
+   }
+  ],
+  "blur_sweep": {
+   "snr": 0.2115864703863207,
+   "phrases": [
+    "BRAZEL RANCH",
+    "DISC"
+   ],
+   "sigmas_full_res": [
+    2.4,
+    6.0,
+    10.0,
+    14.0,
+    20.0
+   ],
+   "rows": [
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "BRAZEL RANCH",
+     "patch": 0,
+     "n": 476,
+     "ranks": {
+      "ncc": 49,
+      "ncc_hp": 48,
+      "whitened": 1
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.0
+     }
+    },
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "BRAZEL RANCH",
+     "patch": 1,
+     "n": 476,
+     "ranks": {
+      "ncc": 30,
+      "ncc_hp": 30,
+      "whitened": 1
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.0
+     }
+    },
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "BRAZEL RANCH",
+     "patch": 2,
+     "n": 476,
+     "ranks": {
+      "ncc": 44,
+      "ncc_hp": 40,
+      "whitened": 2
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "DISC",
+     "patch": 0,
+     "n": 301,
+     "ranks": {
+      "ncc": 225,
+      "ncc_hp": 238,
+      "whitened": 1
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 0.0
+     }
+    },
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "DISC",
+     "patch": 1,
+     "n": 301,
+     "ranks": {
+      "ncc": 12,
+      "ncc_hp": 9,
+      "whitened": 1
+     },
+     "top1_char_error": {
+      "ncc": 0.25,
+      "ncc_hp": 0.25,
+      "whitened": 0.0
+     }
+    },
+    {
+     "sigma_full_res": 2.4,
+     "phrase": "DISC",
+     "patch": 2,
+     "n": 301,
+     "ranks": {
+      "ncc": 58,
+      "ncc_hp": 67,
+      "whitened": 1
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 0.25,
+      "whitened": 0.0
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 0,
+     "n": 476,
+     "ranks": {
+      "ncc": 78,
+      "ncc_hp": 77,
+      "whitened": 83
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 1,
+     "n": 476,
+     "ranks": {
+      "ncc": 56,
+      "ncc_hp": 58,
+      "whitened": 53
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 2,
+     "n": 476,
+     "ranks": {
+      "ncc": 113,
+      "ncc_hp": 120,
+      "whitened": 68
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "DISC",
+     "patch": 0,
+     "n": 301,
+     "ranks": {
+      "ncc": 215,
+      "ncc_hp": 199,
+      "whitened": 125
+     },
+     "top1_char_error": {
+      "ncc": 0.75,
+      "ncc_hp": 0.75,
+      "whitened": 0.75
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "DISC",
+     "patch": 1,
+     "n": 301,
+     "ranks": {
+      "ncc": 12,
+      "ncc_hp": 11,
+      "whitened": 8
+     },
+     "top1_char_error": {
+      "ncc": 0.25,
+      "ncc_hp": 0.25,
+      "whitened": 0.25
+     }
+    },
+    {
+     "sigma_full_res": 6.0,
+     "phrase": "DISC",
+     "patch": 2,
+     "n": 301,
+     "ranks": {
+      "ncc": 30,
+      "ncc_hp": 36,
+      "whitened": 93
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 0.25
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 0,
+     "n": 476,
+     "ranks": {
+      "ncc": 103,
+      "ncc_hp": 95,
+      "whitened": 79
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 1,
+     "n": 476,
+     "ranks": {
+      "ncc": 75,
+      "ncc_hp": 69,
+      "whitened": 86
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 2,
+     "n": 476,
+     "ranks": {
+      "ncc": 106,
+      "ncc_hp": 97,
+      "whitened": 85
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 1.0,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "DISC",
+     "patch": 0,
+     "n": 301,
+     "ranks": {
+      "ncc": 154,
+      "ncc_hp": 131,
+      "whitened": 100
+     },
+     "top1_char_error": {
+      "ncc": 0.75,
+      "ncc_hp": 0.75,
+      "whitened": 0.75
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "DISC",
+     "patch": 1,
+     "n": 301,
+     "ranks": {
+      "ncc": 56,
+      "ncc_hp": 57,
+      "whitened": 45
+     },
+     "top1_char_error": {
+      "ncc": 0.25,
+      "ncc_hp": 0.25,
+      "whitened": 0.75
+     }
+    },
+    {
+     "sigma_full_res": 10.0,
+     "phrase": "DISC",
+     "patch": 2,
+     "n": 301,
+     "ranks": {
+      "ncc": 23,
+      "ncc_hp": 18,
+      "whitened": 29
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 1.0
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 0,
+     "n": 476,
+     "ranks": {
+      "ncc": 68,
+      "ncc_hp": 72,
+      "whitened": 75
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 1,
+     "n": 476,
+     "ranks": {
+      "ncc": 97,
+      "ncc_hp": 89,
+      "whitened": 88
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 2,
+     "n": 476,
+     "ranks": {
+      "ncc": 101,
+      "ncc_hp": 82,
+      "whitened": 73
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "DISC",
+     "patch": 0,
+     "n": 301,
+     "ranks": {
+      "ncc": 75,
+      "ncc_hp": 71,
+      "whitened": 67
+     },
+     "top1_char_error": {
+      "ncc": 0.25,
+      "ncc_hp": 0.25,
+      "whitened": 0.25
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "DISC",
+     "patch": 1,
+     "n": 301,
+     "ranks": {
+      "ncc": 100,
+      "ncc_hp": 111,
+      "whitened": 104
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 0.25,
+      "whitened": 0.25
+     }
+    },
+    {
+     "sigma_full_res": 14.0,
+     "phrase": "DISC",
+     "patch": 2,
+     "n": 301,
+     "ranks": {
+      "ncc": 33,
+      "ncc_hp": 34,
+      "whitened": 27
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 1.0
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 0,
+     "n": 476,
+     "ranks": {
+      "ncc": 92,
+      "ncc_hp": 93,
+      "whitened": 91
+     },
+     "top1_char_error": {
+      "ncc": 0.09090909090909091,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 0.09090909090909091
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 1,
+     "n": 476,
+     "ranks": {
+      "ncc": 112,
+      "ncc_hp": 108,
+      "whitened": 115
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 0.09090909090909091,
+      "whitened": 1.0
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "BRAZEL RANCH",
+     "patch": 2,
+     "n": 476,
+     "ranks": {
+      "ncc": 218,
+      "ncc_hp": 202,
+      "whitened": 142
+     },
+     "top1_char_error": {
+      "ncc": 0.9090909090909091,
+      "ncc_hp": 0.9090909090909091,
+      "whitened": 1.0
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "DISC",
+     "patch": 0,
+     "n": 301,
+     "ranks": {
+      "ncc": 103,
+      "ncc_hp": 99,
+      "whitened": 53
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 0.75,
+      "whitened": 0.75
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "DISC",
+     "patch": 1,
+     "n": 301,
+     "ranks": {
+      "ncc": 222,
+      "ncc_hp": 226,
+      "whitened": 222
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 1.0
+     }
+    },
+    {
+     "sigma_full_res": 20.0,
+     "phrase": "DISC",
+     "patch": 2,
+     "n": 301,
+     "ranks": {
+      "ncc": 194,
+      "ncc_hp": 156,
+      "whitened": 122
+     },
+     "top1_char_error": {
+      "ncc": 1.0,
+      "ncc_hp": 1.0,
+      "whitened": 1.0
+     }
+    }
+   ],
+   "summary": {
+    "2.4": {
+     "ncc": {
+      "first": 0,
+      "median_rank": 46.5,
+      "trials": 6
+     },
+     "ncc_hp": {
+      "first": 0,
+      "median_rank": 44.0,
+      "trials": 6
+     },
+     "whitened": {
+      "first": 5,
+      "median_rank": 1.0,
+      "trials": 6
+     }
+    },
+    "6.0": {
+     "ncc": {
+      "first": 0,
+      "median_rank": 67.0,
+      "trials": 6
+     },
+     "ncc_hp": {
+      "first": 0,
+      "median_rank": 67.5,
+      "trials": 6
+     },
+     "whitened": {
+      "first": 0,
+      "median_rank": 75.5,
+      "trials": 6
+     }
+    },
+    "10.0": {
+     "ncc": {
+      "first": 0,
+      "median_rank": 89.0,
+      "trials": 6
+     },
+     "ncc_hp": {
+      "first": 0,
+      "median_rank": 82.0,
+      "trials": 6
+     },
+     "whitened": {
+      "first": 0,
+      "median_rank": 82.0,
+      "trials": 6
+     }
+    },
+    "14.0": {
+     "ncc": {
+      "first": 0,
+      "median_rank": 86.0,
+      "trials": 6
+     },
+     "ncc_hp": {
+      "first": 0,
+      "median_rank": 77.0,
+      "trials": 6
+     },
+     "whitened": {
+      "first": 0,
+      "median_rank": 74.0,
+      "trials": 6
+     }
+    },
+    "20.0": {
+     "ncc": {
+      "first": 0,
+      "median_rank": 153.0,
+      "trials": 6
+     },
+     "ncc_hp": {
+      "first": 0,
+      "median_rank": 132.0,
+      "trials": 6
+     },
+     "whitened": {
+      "first": 0,
+      "median_rank": 118.5,
+      "trials": 6
+     }
+    }
+   }
+  }
  }
 }

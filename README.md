@@ -20,6 +20,7 @@ the true text out of the film grain. Only 5 of 74 word positions are read the sa
 | `analysis/s1_register.py` … `s8_figures.py` | Image analysis, steps 1–8 (Opus 5.5). All numbers go to `analysis/out/results.json`. |
 | `analysis/s9_reader_agreement.py`, `jev_same_word.py`, `agreement.py` | Step 9: Jev reader agreement. |
 | `analysis/s10_script_check.py`, `jev_claims.py`, `evidence.py` | Step 10: Jev fact-checks the narration against the results. |
+| `analysis/s11_ablation.py` | Step 11: scoring x geometry ablation (NCC vs grain-whitened matching; oracle vs free geometry); report in `analysis/out/ablation.md`. |
 | `analysis/out/` | The results the video was built from: `results.json`, Jev's raw answers, and both Jev reports. |
 | `analysis/sources/factcheck.md` | Sources for the historical claims in the narration. |
 | `build/script.py` | The narration, scene by scene. |
@@ -88,6 +89,21 @@ edge bursts, caps pauses inside a sentence at 0.7 s and fades each clip in and o
 - **Independent review (Claude Fable 5.1):** found that the fake-memo test set the planted letters' strength over the
   whole line rather than the phrase, so they were 1.2–2.3× too strong. The numbers above are after that fix; before it,
   sharp letters came first in 4 of 20 trials and the video wrongly concluded that it takes blur and grain together.
+
+## Step 11: scoring x geometry ablation (`s11_ablation.py`, proposed by a Codex / GPT-6 Astra review)
+
+Does the template method leave image information unused? Withheld phrases were planted on three disjoint blank-film
+patches and ranked under three scorings (step-6 NCC; the same high-pass on line and template; a grain-whitened
+matched filter with the grain spectrum estimated on separate film) and three levels of geometry knowledge (position
+and geometry known; geometry known, position free; the step-7 four-font search). Report: `analysis/out/ablation.md`.
+
+Result: for letters blurred as the memo's are (sigma 20 px), nothing helps: 0 of 15 first in every cell at the real
+strength and at twice it, and knowing the exact position and geometry barely moves the median rank. For sharp letters
+the grain-whitened matcher reads 14 of 15 phrases where NCC reads 0 of 15, and a blur sweep shows that advantage is
+gone by sigma 6 px. So the grain defeats plain NCC, but a grain-aware matcher would beat the grain if the letters
+were sharp; it is the memo's blur, an order of magnitude beyond that limit, that puts the text out of reach. The
+measured strength on these patches came out 0.21 of the grain rather than 0.29, confirming that the estimate is
+fragile; the x2 condition brackets the step-7 value.
 
 ## License
 
