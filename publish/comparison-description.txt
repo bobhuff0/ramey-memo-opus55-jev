@@ -11,16 +11,16 @@ This is the fifth AI analysis of the University of Texas at Arlington’s scans 
 
 WHAT’S NEW IN THIS ANALYSIS
 1. Reader agreement counted by Jev, word by word: of 74 positions, 5 are unanimous, 14 reach eight of ten readers and 22 reach six. The counts barely move across thresholds and repeated exactly on a second run.
-2. Every narration sentence fact-checked: Jev confirmed 46 of 84 and flagged 20 for review, which led to six clearer wordings.
-3. A flaw found and fixed: one flag showed the sharp-letter trials had been searched with blurred templates. Fixed, sharp letters came first in 4 of 20 trials; blurred letters still 0 of 20. It takes the blur and the grain together, not the grain alone.
-4. A bigger known-answer test: 20 trials per condition, up from 12. Sharp letters start winning at 1.5 times the real letter strength, blurred letters only at 6 times.
+2. Every narration sentence fact-checked: Jev confirmed 45 of 84 and flagged 21 for review, which led to clearer wordings.
+3. Two flaws found and fixed: a Jev flag showed the sharp-letter trials had been searched with blurred templates, and a review by Claude Fable 5.1 found the fake letters planted 1.2 to 2.3 times too strong. With both fixed, even sharp letters come first in 0 of 20 trials at the memo’s strength. The grain alone defeats the method; the blur makes it far worse.
+4. A bigger known-answer test: 20 trials per condition, up from 12. Sharp letters start winning at twice the real letter strength, blurred letters only at 8 times.
 5. Reproduced before it was trusted: every image measurement and known-word rank from the previous run came out identical.
 
 HOW THE EARLIER ANALYSES COMPARE
 Astra (OpenAI Codex): a careful visual review. It verified the files and weighed the published readings, but made no measurements or calibrated tests. FORT WORTH, TEX. and WEATHER BALLOONS were its strongest fragments; VICTIMS was “possible but too ambiguous to adopt.”
 Claude Fable 5.1: the first quantitative pass. It missed that two left-half files had shifted by up to 35 pixels, and that the “2x” files were enlarged in software.
-Claude Opus 5.5, first two runs: they found both of those problems and showed that letter matching fails on words nobody disputes. But they blamed the failure on different causes, and the second run’s “grain alone” conclusion rested on the flawed sharp-letter test.
-Claude Opus 5.5 + Jev (this video): the same verdict, now with reproducible reader counts, a fact-checked script, and the flaw corrected.
+Claude Opus 5.5, first two runs: they found both of those problems and showed that letter matching fails on words nobody disputes. But they blamed the failure on different causes. The second run’s “grain alone” conclusion now holds up on a fair test.
+Claude Opus 5.5 + Jev (this video): the same verdict, now with reproducible reader counts, a fact-checked script, and two test flaws corrected.
 
 WHERE ALL FIVE AGREE
 The word skeleton survives: a wreck, something forwarded to Fort Worth, weather balloons. The letters do not. VICTIMS remains a reading, not a fact, and the $10,000 reward offered in 2016 for a definitive reading has never been publicly claimed.
@@ -37,9 +37,9 @@ CHAPTERS
 05:22 Victims, and one word's evidence
 06:08 The calibration test
 07:10 Why the method fails
-08:02 The disputed word
-08:39 How expectations shape a reading
-09:10 What remains unresolved
+08:06 The disputed word
+08:43 How expectations shape a reading
+09:14 What remains unresolved
 
 CODE AND RESULTS
 All the analysis code, the measured results and both Jev reports are public: https://github.com/bobhuff0/ramey-memo-opus55-jev

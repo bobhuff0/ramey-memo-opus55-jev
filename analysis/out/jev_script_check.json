@@ -3028,5 +3028,687 @@
     }
    }
   ]
+ },
+ "f5bc5b4d0346eec9fecd1b453ef9be14bcdd0555": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "On July 8, 1947, Fort Worth Star-Telegram photographer J. Bond Johnson caught General Roger Ramey holding a typed message, probably a teletype, at the press session where Roswell's flying disc became a weather balloon.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "supports": 0.98,
+     "contradicts": 0.01,
+     "says_nothing": 0.01
+    }
+   },
+   {
+    "sentence": "For almost forty years, researchers have tried to read that slip of paper.",
+    "p_checkable": 0.95,
+    "relation": "supports",
+    "confidence": 0.78,
+    "probabilities": {
+     "supports": 0.85,
+     "contradicts": 0.12,
+     "says_nothing": 0.03
+    }
+   },
+   {
+    "sentence": "Now it has been through the latest in publicly available AI: Anthropic's Claude Opus 5.5, and Jev, from TypeSafe.",
+    "p_checkable": 0.96,
+    "relation": "supports",
+    "confidence": 0.89,
+    "probabilities": {
+     "supports": 0.93,
+     "contradicts": 0.02,
+     "says_nothing": 0.05
+    }
+   },
+   {
+    "sentence": "Opus 5.5 rebuilt the image analysis from the raw scans. Jev, a new kind of model that answers narrow questions with probabilities, judged the words.",
+    "p_checkable": 0.92,
+    "relation": "supports",
+    "confidence": 0.91,
+    "probabilities": {
+     "supports": 0.94,
+     "contradicts": 0.02,
+     "says_nothing": 0.04
+    }
+   },
+   {
+    "sentence": "The question is simple: can AI read it?",
+    "p_checkable": 0.04,
+    "relation": "supports",
+    "confidence": 0.29,
+    "probabilities": {
+     "contradicts": 0.03,
+     "supports": 0.52,
+     "says_nothing": 0.45
+    }
+   }
+  ]
+ },
+ "b542abad44b3b40a3e42658203c35ccd2e5cbf5d": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "Each system had a different job.",
+    "p_checkable": 0.29,
+    "relation": "supports",
+    "confidence": 0.85,
+    "probabilities": {
+     "says_nothing": 0.09,
+     "supports": 0.9,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "Claude Opus 5.5 wrote and ran every step of the image analysis: aligning the scans, measuring the film grain, straightening the typed lines, and testing whether letter matching can find words nobody disputes.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.82,
+    "probabilities": {
+     "says_nothing": 0.03,
+     "supports": 0.87,
+     "contradicts": 0.1
+    }
+   },
+   {
+    "sentence": "Jev, version 1.13, cannot see images. It reads text and returns a probability for each question, so it got the questions about words.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.94,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "supports": 0.96,
+     "contradicts": 0.03
+    }
+   },
+   {
+    "sentence": "When ten researchers transcribe the same spot, do two readings name the same word, like DISC spelled with a C or with a K, or different words, like VICTIMS and VIEWING?",
+    "p_checkable": 0.35,
+    "relation": "supports",
+    "confidence": 0.35,
+    "probabilities": {
+     "says_nothing": 0.06,
+     "supports": 0.57,
+     "contradicts": 0.37
+    }
+   },
+   {
+    "sentence": "And is each factual sentence in this script supported by the measurements?",
+    "p_checkable": 0.06,
+    "relation": "supports",
+    "confidence": 0.9,
+    "probabilities": {
+     "says_nothing": 0.03,
+     "supports": 0.9400000000000001,
+     "contradicts": 0.03
+    }
+   },
+   {
+    "sentence": "In every case, code, not the models, sets the thresholds and keeps the score.",
+    "p_checkable": 0.7,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "says_nothing": 0.0,
+     "supports": 0.99,
+     "contradicts": 0.01
+    }
+   }
+  ]
+ },
+ "8dc11691ad72636d5dd3ec42b2be0934651e7fbf": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "UTA posts twenty-three scan files. Claude Opus 5.5 worked from nine of them.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.88,
+    "probabilities": {
+     "supports": 0.92,
+     "says_nothing": 0.07,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "Left and right halves of the memo, labelled eight hundred dots per inch, at four brightness levels each, plus one whole-memo file labelled a thousand.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.99,
+    "probabilities": {
+     "supports": 0.99,
+     "says_nothing": 0.0,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "The film is a negative, so the typed letters show up light. Before reading anything, Opus 5.5 measured what the files actually contain.",
+    "p_checkable": 0.94,
+    "relation": "supports",
+    "confidence": 0.81,
+    "probabilities": {
+     "supports": 0.87,
+     "says_nothing": 0.11,
+     "contradicts": 0.02
+    }
+   }
+  ]
+ },
+ "f73b52c3ab9eb54370bb59d5ecb684ac6ab46633": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "Opus 5.5 tried Gaussian smoothing, total-variation denoising, non-local means, median filtering, and smoothing at the size of the measured blur.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.88,
+    "probabilities": {
+     "supports": 0.92,
+     "contradicts": 0.07,
+     "says_nothing": 0.01
+    }
+   },
+   {
+    "sentence": "Every method produced the same result: words as blobs.",
+    "p_checkable": 0.91,
+    "relation": "supports",
+    "confidence": 0.89,
+    "probabilities": {
+     "supports": 0.93,
+     "contradicts": 0.06,
+     "says_nothing": 0.01
+    }
+   },
+   {
+    "sentence": "Light smoothing leaves the grain. Heavy smoothing takes the strokes with it.",
+    "p_checkable": 0.22,
+    "relation": "says_nothing",
+    "confidence": 0.31,
+    "probabilities": {
+     "supports": 0.42,
+     "contradicts": 0.05,
+     "says_nothing": 0.53
+    }
+   }
+  ]
+ },
+ "d0b1492ce5b20ce935f541931ae139c994e6acb0": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "What could be fixed was the geometry.",
+    "p_checkable": 0.07,
+    "relation": "says_nothing",
+    "confidence": 0.22,
+    "probabilities": {
+     "says_nothing": 0.48,
+     "contradicts": 0.06,
+     "supports": 0.46
+    }
+   },
+   {
+    "sentence": "The paper is curled and tilted. Across a half-scan, one typed line drifts up or down by as much as three hundred and forty pixels, more than half the gap between lines.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.71,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "contradicts": 0.19,
+     "supports": 0.8
+    }
+   },
+   {
+    "sentence": "Opus 5.5 traced each line by following its pattern of letters from column to column, and resampled every line flat.",
+    "p_checkable": 0.92,
+    "relation": "supports",
+    "confidence": 0.99,
+    "probabilities": {
+     "says_nothing": 0.0,
+     "contradicts": 0.0,
+     "supports": 1.0
+    }
+   },
+   {
+    "sentence": "Then it joined the two halves where they overlap, about twenty-one hundred pixels. In six of six patches the grain matches at point nine two or better: both halves are the same piece of film.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.99,
+    "probabilities": {
+     "says_nothing": 0.0,
+     "contradicts": 0.0,
+     "supports": 1.0
+    }
+   }
+  ]
+ },
+ "d8990e88992f6f43ec6cc5cde084b0ec254c5bd1": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "This is the cleanest view of the memo that Opus 5.5 could get from these scans: nine lines, straightened and joined.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.68,
+    "probabilities": {
+     "contradicts": 0.02,
+     "says_nothing": 0.19,
+     "supports": 0.79
+    }
+   },
+   {
+    "sentence": "On the right, where three lines crowd together, the tracer could not keep them apart, and those stretches are left blank.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 1.0,
+    "probabilities": {
+     "contradicts": 0.0,
+     "says_nothing": 0.0,
+     "supports": 1.0
+    }
+   },
+   {
+    "sentence": "Word lengths and spacing are clear.",
+    "p_checkable": 0.35,
+    "relation": "contradicts",
+    "confidence": 0.22,
+    "probabilities": {
+     "contradicts": 0.48,
+     "supports": 0.44,
+     "says_nothing": 0.08
+    }
+   },
+   {
+    "sentence": "A seven-letter word before OF THE WRECK on line two.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.97,
+    "probabilities": {
+     "contradicts": 0.01,
+     "says_nothing": 0.01,
+     "supports": 0.98
+    }
+   },
+   {
+    "sentence": "The short line: AT FORT WORTH, TEX.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.71,
+    "probabilities": {
+     "contradicts": 0.15,
+     "says_nothing": 0.05,
+     "supports": 0.8
+    }
+   },
+   {
+    "sentence": "WEATHER BALLOONS on line seven, and a short signature on line nine.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.89,
+    "probabilities": {
+     "contradicts": 0.05,
+     "supports": 0.92,
+     "says_nothing": 0.03
+    }
+   },
+   {
+    "sentence": "Letters, though, are still blobs.",
+    "p_checkable": 0.62,
+    "relation": "supports",
+    "confidence": 0.97,
+    "probabilities": {
+     "contradicts": 0.01,
+     "says_nothing": 0.01,
+     "supports": 0.98
+    }
+   }
+  ]
+ },
+ "21eb8a83fde4881a8c83d643ffc508c1bdf1a84c": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "The fight is over one word. Seven letters, before OF THE WRECK.",
+    "p_checkable": 0.96,
+    "relation": "supports",
+    "confidence": 0.85,
+    "probabilities": {
+     "contradicts": 0.06,
+     "supports": 0.9,
+     "says_nothing": 0.04
+    }
+   },
+   {
+    "sentence": "VICTIMS, say six of the ten readers, among them David Rudiak, who has worked on this memo for more than twenty-five years.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.56,
+    "probabilities": {
+     "contradicts": 0.28,
+     "supports": 0.71,
+     "says_nothing": 0.01
+    }
+   },
+   {
+    "sentence": "REMAINS, say two others. FINDING, says Brad Sparks. VIEWING has been suggested too.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.72,
+    "probabilities": {
+     "contradicts": 0.15,
+     "supports": 0.8200000000000001,
+     "says_nothing": 0.03
+    }
+   },
+   {
+    "sentence": "By Jev's count, VICTIMS just clears the six-reader bar. But agreement among readers is not evidence from the pixels.",
+    "p_checkable": 0.91,
+    "relation": "supports",
+    "confidence": 0.73,
+    "probabilities": {
+     "contradicts": 0.08,
+     "supports": 0.82,
+     "says_nothing": 0.1
+    }
+   },
+   {
+    "sentence": "In 2016, Rudiak reported an unpublished test: letter templates scored VICTIMS above its rivals and two nonsense words, and about as well as FORT WORTH and WEATHER BALLOONS.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "contradicts": 0.01,
+     "supports": 0.99,
+     "says_nothing": 0.0
+    }
+   },
+   {
+    "sentence": "Opus 5.5 asked the question that has to come first: can the method find words that nobody disputes?",
+    "p_checkable": 0.16,
+    "relation": "supports",
+    "confidence": 0.52,
+    "probabilities": {
+     "contradicts": 0.02,
+     "supports": 0.68,
+     "says_nothing": 0.3
+    }
+   }
+  ]
+ },
+ "d6620b826c19581fe29bcfc78297ad2c7def2695": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "Here is the test.",
+    "p_checkable": 0.04,
+    "relation": "says_nothing",
+    "confidence": 0.33,
+    "probabilities": {
+     "says_nothing": 0.55,
+     "supports": 0.44,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "Opus 5.5 rendered five undisputed phrases in four monospace fonts, over a grid of letter sizes, spacings and blurs, and slid each one along its straightened line.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.74,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "supports": 0.83,
+     "contradicts": 0.16
+    }
+   },
+   {
+    "sentence": "The letter size and blur were fitted on the other four phrases, so no phrase was tested on settings tuned to itself.",
+    "p_checkable": 0.95,
+    "relation": "supports",
+    "confidence": 0.95,
+    "probabilities": {
+     "says_nothing": 0.0,
+     "supports": 0.97,
+     "contradicts": 0.03
+    }
+   },
+   {
+    "sentence": "Then it scored every one-letter misspelling of each phrase, and three hundred strings of random letters with the same spacing.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.93,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "supports": 0.95,
+     "contradicts": 0.04
+    }
+   },
+   {
+    "sentence": "FORT WORTH, TEX. came a hundred and eighty-third out of six hundred and one. A hundred and thirty-two misspellings beat it, and so did fifty random strings.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "says_nothing": 0.0,
+     "supports": 0.99,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "WEATHER BALLOONS came a hundred and fifty-third. OF THE WRECK, a hundred and forty-ninth. RAMEY lost to two hundred and nineteen of the three hundred random strings.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.92,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "supports": 0.94,
+     "contradicts": 0.05
+    }
+   },
+   {
+    "sentence": "Some random strings beat every true phrase: eight of three hundred for WEATHER BALLOONS, and up to two hundred and nineteen for RAMEY. The method cannot reliably pick real words from random letters, let alone one letter from another.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.47,
+    "probabilities": {
+     "says_nothing": 0.03,
+     "supports": 0.65,
+     "contradicts": 0.32
+    }
+   }
+  ]
+ },
+ "e19ccb4c21e0577d820c427d8bb5aa19d20b908b": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "Why does it fail? Opus 5.5 built fake memo lines where the answer is known: a true phrase, typeset, laid on real blank film from the same negative, at the letter strength measured on the real lines.",
+    "p_checkable": 0.93,
+    "relation": "supports",
+    "confidence": 0.96,
+    "probabilities": {
+     "contradicts": 0.02,
+     "says_nothing": 0.0,
+     "supports": 0.98
+    }
+   },
+   {
+    "sentence": "Five phrases on four patches of film make twenty trials, and the search included the right font at the right size.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.74,
+    "probabilities": {
+     "contradicts": 0.16,
+     "says_nothing": 0.02,
+     "supports": 0.82
+    }
+   },
+   {
+    "sentence": "Even with sharp letters, the true phrase came first in none of twenty trials, and made the top ten in only four.",
+    "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.27,
+    "probabilities": {
+     "contradicts": 0.46,
+     "says_nothing": 0.02,
+     "supports": 0.52
+    }
+   },
+   {
+    "sentence": "Blurred the way the memo's letters are, it did far worse, typically ranking around ninety-fourth.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.97,
+    "probabilities": {
+     "contradicts": 0.02,
+     "says_nothing": 0.0,
+     "supports": 0.98
+    }
+   },
+   {
+    "sentence": "Take the grain away, and even the blurred phrase comes first, five times out of five.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 1.0,
+    "probabilities": {
+     "contradicts": 0.0,
+     "says_nothing": 0.0,
+     "supports": 1.0
+    }
+   },
+   {
+    "sentence": "Turn the letters up: sharp letters start winning at twice the real strength, blurred letters only at eight times.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.75,
+    "probabilities": {
+     "contradicts": 0.16,
+     "says_nothing": 0.01,
+     "supports": 0.83
+    }
+   },
+   {
+    "sentence": "So at the memo's strength, the grain alone defeats the method, and the blur makes it far worse. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.",
+    "p_checkable": 0.7,
+    "relation": "supports",
+    "confidence": 0.87,
+    "probabilities": {
+     "contradicts": 0.07,
+     "says_nothing": 0.02,
+     "supports": 0.91
+    }
+   }
+  ]
+ },
+ "f6e91c1467eb3a606d136c3dab46d4910f2dd099": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "So, can AI read the Ramey memo?",
+    "p_checkable": 0.04,
+    "relation": "says_nothing",
+    "confidence": 0.39,
+    "probabilities": {
+     "contradicts": 0.03,
+     "says_nothing": 0.6,
+     "supports": 0.37
+    }
+   },
+   {
+    "sentence": "No. Not even the latest AI, not from these scans, and not by matching letter templates.",
+    "p_checkable": 0.56,
+    "relation": "supports",
+    "confidence": 0.72,
+    "probabilities": {
+     "contradicts": 0.13,
+     "says_nothing": 0.06,
+     "supports": 0.8099999999999999
+    }
+   },
+   {
+    "sentence": "What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's grain defeats template matching, even for sharp letters in the right font.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.51,
+    "probabilities": {
+     "contradicts": 0.28,
+     "says_nothing": 0.05,
+     "supports": 0.67
+    }
+   },
+   {
+    "sentence": "What Jev added: a word-by-word count of where ten human readers truly agree, and a check of every factual sentence in this script against the measurements.",
+    "p_checkable": 0.92,
+    "relation": "supports",
+    "confidence": 0.89,
+    "probabilities": {
+     "contradicts": 0.04,
+     "says_nothing": 0.04,
+     "supports": 0.92
+    }
+   },
+   {
+    "sentence": "One of its flags sent Opus 5.5 back to the sharp-letter test, where it found and fixed a flaw in the templates.",
+    "p_checkable": 0.71,
+    "relation": "supports",
+    "confidence": 0.81,
+    "probabilities": {
+     "contradicts": 0.06,
+     "says_nothing": 0.06,
+     "supports": 0.88
+    }
+   },
+   {
+    "sentence": "The word skeleton survives. VICTIMS remains a reading, not a fact.",
+    "p_checkable": 0.78,
+    "relation": "supports",
+    "confidence": 0.91,
+    "probabilities": {
+     "contradicts": 0.04,
+     "says_nothing": 0.02,
+     "supports": 0.94
+    }
+   },
+   {
+    "sentence": "And the ten-thousand-dollar reward, offered in 2016 for a definitive reading, has never been publicly claimed.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.97,
+    "probabilities": {
+     "contradicts": 0.01,
+     "says_nothing": 0.02,
+     "supports": 0.97
+    }
+   }
+  ]
+ },
+ "e0981c70976889f177a1b79198db0262ce7f17e3": {
+  "model": "jev-1.13.0",
+  "sentences": [
+   {
+    "sentence": "The methods, the test results, and Jev's agreement table are summarized in the description.",
+    "p_checkable": 0.83,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "supports": 0.98,
+     "says_nothing": 0.01,
+     "contradicts": 0.01
+    }
+   },
+   {
+    "sentence": "This has been The Future Past.",
+    "p_checkable": 0.12,
+    "relation": "says_nothing",
+    "confidence": 0.9,
+    "probabilities": {
+     "supports": 0.02,
+     "says_nothing": 0.93,
+     "contradicts": 0.04
+    }
+   }
+  ]
  }
 }

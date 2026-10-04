@@ -73,17 +73,21 @@ edge bursts, caps pauses inside a sentence at 0.7 s and fades each clip in and o
 - The two halves overlap by about 2,100 px, and the grain matches in 6 of 6 patches.
 - **Known-word test:** true phrases rank 149th–285th of 426–676 candidates, and some random strings beat every one.
 - **Known-answer test** at the measured letter strength, with four fonts searched and template blur matching the letters:
-  - sharp letters plus grain: the true phrase ranks first in 4 of 20 trials;
-  - blurred letters plus grain: 0 of 20;
+  - sharp letters plus grain: the true phrase ranks first in 0 of 20 trials (top ten in 4, median rank 16.5);
+  - blurred letters plus grain: 0 of 20 (median rank 93.5);
   - blurred letters without grain: 5 of 5.
 
-  Sharp letters start winning at 1.5× the real strength, blurred letters only at 6×. It takes the blur and the grain together to defeat the method.
+  Sharp letters start winning at 2× the real strength, blurred letters only at 8×. At the memo's strength the grain alone
+  defeats the method, and the blur makes it far worse.
 - **Disputed word:** FINDING ranks 1st, REMAINS 4th and VICTIMS 31st of 307 candidates.
 - **Jev reader agreement:** 511 pairs of readings judged. Of 74 positions, 5 are unanimous, 14 reach 8 of 10 readers,
   and 22 reach 6. Any same-word threshold from 0.3 to 0.9 changes those counts by at most one.
-- **Jev script check:** of 84 narration sentences, 66 are checkable claims. Jev verified 46, and the other 20 were
+- **Jev script check:** of 84 narration sentences, 66 are checkable claims. Jev verified 45, and the other 21 were
   reviewed against the results (notes in `analysis/out/script_check.md`). Reviewing one flag found that the sharp-letter
-  test had been searched with blurred templates; fixing it changed a conclusion.
+  test had been searched with blurred templates, and the templates were made sharp.
+- **Independent review (Claude Fable 5.1):** found that the fake-memo test set the planted letters' strength over the
+  whole line rather than the phrase, so they were 1.2–2.3× too strong. The numbers above are after that fix; before it,
+  sharp letters came first in 4 of 20 trials and the video wrongly concluded that it takes blur and grain together.
 
 ## License
 

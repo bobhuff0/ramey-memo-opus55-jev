@@ -1,6 +1,6 @@
 Can the latest publicly available AI read the typed message in General Roger Ramey’s hand? Anthropic’s Claude Opus 5.5 rebuilt the image analysis of the University of Texas at Arlington’s scans of the 1947 Ramey memo from scratch. TypeSafe’s Jev 1.13, a text-only model, judged ten readers’ transcriptions and fact-checked the script.
 
-This 10:11 investigation follows both systems. Opus 5.5 found that the “2x” files were enlarged in software, that two left-half files had shifted by up to 35 pixels, and that merging exposures removes only 5–8% of the noise. On phrases nobody disputes, template matching fails: FORT WORTH, TEX. ranked 183rd of 601, and some random strings beat every true phrase. On the disputed word, FINDING ranked first and VICTIMS 31st of 307, which settles nothing.
+This 10:15 investigation follows both systems. Opus 5.5 found that the “2x” files were enlarged in software, that two left-half files had shifted by up to 35 pixels, and that merging exposures removes only 5–8% of the noise. On phrases nobody disputes, template matching fails: FORT WORTH, TEX. ranked 183rd of 601, and some random strings beat every true phrase. On the disputed word, FINDING ranked first and VICTIMS 31st of 307, which settles nothing.
 
 The word skeleton of the memo survives. The disputed word does not resolve.
 
@@ -8,8 +8,8 @@ HOW THIS COMPARES WITH EARLIER AI ANALYSES
 This is the fifth AI analysis of these scans. The verdict hasn’t changed, but more of it has now been tested, and one earlier conclusion was corrected.
 • Astra (OpenAI Codex): a visual review with no measurements. It rated FORT WORTH, TEX. and WEATHER BALLOONS the strongest fragments, and VICTIMS “possible but too ambiguous to adopt.”
 • Claude Fable 5.1: the first measurements, but it missed that two left-half files had shifted by up to 35 pixels, and that the “2x” files were enlarged in software.
-• Claude Opus 5.5, first two runs: found both problems and showed that letter matching fails on words nobody disputes. The second run blamed the grain alone, based on a sharp-letter test that had been searched with blurred templates.
-• This video: Jev counted reader agreement word by word (5 of 74 positions unanimous) and fact-checked all 84 narration sentences. One of its flags exposed the template flaw. With it fixed, sharp letters come first in 4 of 20 trials and blurred letters in 0 of 20, so it takes the blur and the grain together to defeat the method.
+• Claude Opus 5.5, first two runs: found both problems and showed that letter matching fails on words nobody disputes. They disagreed on why it fails.
+• This video: Jev counted reader agreement word by word (5 of 74 positions unanimous) and fact-checked all 84 narration sentences. One of its flags exposed a template flaw, and a review by Claude Fable 5.1 caught fake letters planted too strong. With both fixed, even sharp letters come first in 0 of 20 trials at the memo’s strength: the grain alone defeats the method, and the blur makes it far worse.
 All five agree: the word skeleton survives (a wreck, something forwarded to Fort Worth, weather balloons). The letters, including VICTIMS, do not.
 
 No generative enhancement was used to invent letters: straightened images are computed from the scans, and typeset phrases are proposed readings. Jev never saw an image. The AI systems assisted the investigation; they did not solve the memo.
@@ -24,9 +24,9 @@ CHAPTERS
 05:22 Victims, and one word's evidence
 06:08 The calibration test
 07:10 Why the method fails
-08:02 The disputed word
-08:39 How expectations shape a reading
-09:10 What remains unresolved
+08:06 The disputed word
+08:43 How expectations shape a reading
+09:14 What remains unresolved
 
 CODE AND RESULTS
 All the analysis code, the measured results and both Jev reports are public: https://github.com/bobhuff0/ramey-memo-opus55-jev

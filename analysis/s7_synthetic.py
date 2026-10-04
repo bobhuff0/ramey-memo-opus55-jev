@@ -62,7 +62,8 @@ def build_line(phrase, sigma, grain, snr, gstd):
     y = line.shape[0] // 2 - tpl.shape[0] // 2
     line[y:y + tpl.shape[0], PLANT_X:PLANT_X + tpl.shape[1]] = tpl
     line = highpass(line)
-    c = line.shape[0] // 2; sig = line[c - 10:c + 10].std()
+    # strength is set over the phrase's own columns: the real lines it is matched to are text across their width
+    c = line.shape[0] // 2; sig = line[c - 10:c + 10, PLANT_X:PLANT_X + tpl.shape[1]].std()
     line *= snr * gstd / (sig + 1e-9)
     return line + grain if grain is not None else line
 

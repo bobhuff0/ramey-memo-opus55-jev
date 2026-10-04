@@ -15,7 +15,7 @@ MONOB = os.path.join(FONTS, "LiberationMono-Bold.ttf")
 RESULTS_PATH = os.path.join(HERE, "..", "analysis", "out", "results.json")
 JEV_NAME = "TYPESAFE JEV 1.13"
 OPUS_NAME = "ANTHROPIC CLAUDE OPUS 5.5"
-VERDICT_SYNTH_LINE = "Opus 5.5: the memo’s blur plus grain defeats template matching"
+VERDICT_SYNTH_LINE = "Opus 5.5: the memo’s grain defeats template matching, even for sharp letters"
 
 
 def results():
@@ -283,7 +283,7 @@ def synthetic(sc):
     first = {k: next(r["mult"] for r in syn[k]["rows"] if r["wins"]) for k in ("sweep_sharp", "sweep")}
     s.para((1000, 790), f"Sharp letters start winning at {first['sweep_sharp']:g}\u00d7 the real strength; blurred letters only at {first['sweep']:g}\u00d7.",
            F(SANS, 28), CREAM, 52)
-    s.text((97, 880), "Blur plus grain defeats it \u2014 even with the right font.", F(SERIF, 52), GOLD)
+    s.text((97, 880), "Grain alone defeats it \u2014 even sharp letters, in the right font.", F(SERIF, 52), GOLD)
     return s
 
 

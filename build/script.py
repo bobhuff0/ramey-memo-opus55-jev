@@ -99,11 +99,11 @@ SCENES = [
          narration=[
              "Why does it fail? Opus 5.5 built fake memo lines where the answer is known: a true phrase, typeset, laid on real blank film from the same negative, at the letter strength measured on the real lines.",
              "Five phrases on four patches of film make twenty trials, and the search included the right font at the right size.",
-             "With sharp letters, the true phrase usually made the top ten, and came first in four of twenty trials.",
-             "Blurred the way the memo's letters are, it came first in none of twenty.",
+             "Even with sharp letters, the true phrase came first in none of twenty trials, and made the top ten in only four.",
+             "Blurred the way the memo's letters are, it did far worse, typically ranking around ninety-fourth.",
              "Take the grain away, and even the blurred phrase comes first, five times out of five.",
-             "Turn the letters up: sharp letters start winning at one and a half times the real strength, blurred letters only at six times.",
-             "It takes the blur and the grain together to defeat the method, and the memo has both. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.",
+             "Turn the letters up: sharp letters start winning at twice the real strength, blurred letters only at eight times.",
+             "So at the memo's strength, the grain alone defeats the method, and the blur makes it far worse. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.",
          ]),
     dict(id="13_disputed", chapter="The disputed word", layout="disputed",
          narration=[
@@ -125,9 +125,9 @@ SCENES = [
          narration=[
              "So, can AI read the Ramey memo?",
              "No. Not even the latest AI, not from these scans, and not by matching letter templates.",
-             "What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's blur and grain together defeat template matching, even with the right font.",
+             "What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's grain defeats template matching, even for sharp letters in the right font.",
              "What Jev added: a word-by-word count of where ten human readers truly agree, and a check of every factual sentence in this script against the measurements.",
-             "One of its flags sent Opus 5.5 back to the sharp-letter test, and fixing that test changed a conclusion.",
+             "One of its flags sent Opus 5.5 back to the sharp-letter test, where it found and fixed a flaw in the templates.",
              "The word skeleton survives. VICTIMS remains a reading, not a fact.",
              "And the ten-thousand-dollar reward, offered in 2016 for a definitive reading, has never been publicly claimed.",
          ]),

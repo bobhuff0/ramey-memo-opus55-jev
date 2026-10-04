@@ -1,6 +1,6 @@
 # Narration script — Roswell’s Ramey Memo: Can the Latest AI Read It? Claude Opus 5.5 + TypeSafe Jev
 
-Runtime 10:11. Scene starts are from the rendered file.
+Runtime 10:15. Scene starts are from the rendered file.
 
 ## 00:00  01_title — Can the latest AI read the Ramey memo?
 *Visual: title*
@@ -109,43 +109,43 @@ Runtime 10:11. Scene starts are from the rendered file.
 
 - [07:09] Why does it fail? Opus 5.5 built fake memo lines where the answer is known: a true phrase, typeset, laid on real blank film from the same negative, at the letter strength measured on the real lines.
 - [07:22] Five phrases on four patches of film make twenty trials, and the search included the right font at the right size.
-- [07:29] With sharp letters, the true phrase usually made the top ten, and came first in four of twenty trials.
-- [07:35] Blurred the way the memo's letters are, it came first in none of twenty.
-- [07:38] Take the grain away, and even the blurred phrase comes first, five times out of five.
-- [07:43] Turn the letters up: sharp letters start winning at one and a half times the real strength, blurred letters only at six times.
-- [07:50] It takes the blur and the grain together to defeat the method, and the memo has both. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.
+- [07:29] Even with sharp letters, the true phrase came first in none of twenty trials, and made the top ten in only four.
+- [07:36] Blurred the way the memo's letters are, it did far worse, typically ranking around ninety-fourth.
+- [07:42] Take the grain away, and even the blurred phrase comes first, five times out of five.
+- [07:47] Turn the letters up: sharp letters start winning at twice the real strength, blurred letters only at eight times.
+- [07:53] So at the memo's strength, the grain alone defeats the method, and the blur makes it far worse. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.
 
-## 08:01  13_disputed — The disputed word
+## 08:05  13_disputed — The disputed word
 *Visual: disputed*
 
-- [08:01] And the disputed word itself?
-- [08:03] The method could not even find where the known words sit: its best positions put OF THE WRECK and FORWARDED five letters apart, when the memo has seventeen between them. So Opus 5.5 searched for the disputed word along the whole of line two.
-- [08:18] FINDING came first out of three hundred and seven. REMAINS came fourth. VICTIMS came thirty-first, behind twenty-six random strings.
-- [08:27] Because the method fails on words nobody disputes, this settles nothing, for or against VICTIMS.
-- [08:33] Any letter ranking on this word, from anyone, should be asked to pass the known-word test first.
+- [08:05] And the disputed word itself?
+- [08:07] The method could not even find where the known words sit: its best positions put OF THE WRECK and FORWARDED five letters apart, when the memo has seventeen between them. So Opus 5.5 searched for the disputed word along the whole of line two.
+- [08:22] FINDING came first out of three hundred and seven. REMAINS came fourth. VICTIMS came thirty-first, behind twenty-six random strings.
+- [08:31] Because the method fails on words nobody disputes, this settles nothing, for or against VICTIMS.
+- [08:37] Any letter ranking on this word, from anyone, should be asked to pass the known-word test first.
 
-## 08:38  14_expect — How expectations shape a reading
+## 08:42  14_expect — How expectations shape a reading
 *Visual: expect*
 
-- [08:38] This matters because of a 2002 experiment by James Houran and Kevin Randle.
-- [08:43] A hundred and seventy-six volunteers tried to read the memo. One group was told it was about Roswell, one about atomic-bomb testing, and one only that it was a document.
-- [08:53] The Roswell group found crash words, the atomic group found atomic words, and the third group read very little.
-- [08:59] Yet FORT WORTH, STORY, and WEATHER BALLOONS turned up in every group.
-- [09:05] The pixels underdetermine the words, and context fills the gap.
+- [08:43] This matters because of a 2002 experiment by James Houran and Kevin Randle.
+- [08:47] A hundred and seventy-six volunteers tried to read the memo. One group was told it was about Roswell, one about atomic-bomb testing, and one only that it was a document.
+- [08:57] The Roswell group found crash words, the atomic group found atomic words, and the third group read very little.
+- [09:04] Yet FORT WORTH, STORY, and WEATHER BALLOONS turned up in every group.
+- [09:09] The pixels underdetermine the words, and context fills the gap.
 
-## 09:09  15_verdict — What remains unresolved
+## 09:13  15_verdict — What remains unresolved
 *Visual: verdict*
 
-- [09:09] So, can AI read the Ramey memo?
-- [09:12] No. Not even the latest AI, not from these scans, and not by matching letter templates.
-- [09:17] What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's blur and grain together defeat template matching, even with the right font.
-- [09:35] What Jev added: a word-by-word count of where ten human readers truly agree, and a check of every factual sentence in this script against the measurements.
-- [09:44] One of its flags sent Opus 5.5 back to the sharp-letter test, and fixing that test changed a conclusion.
-- [09:51] The word skeleton survives. VICTIMS remains a reading, not a fact.
-- [09:56] And the ten-thousand-dollar reward, offered in 2016 for a definitive reading, has never been publicly claimed.
+- [09:13] So, can AI read the Ramey memo?
+- [09:16] No. Not even the latest AI, not from these scans, and not by matching letter templates.
+- [09:22] What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's grain defeats template matching, even for sharp letters in the right font.
+- [09:38] What Jev added: a word-by-word count of where ten human readers truly agree, and a check of every factual sentence in this script against the measurements.
+- [09:48] One of its flags sent Opus 5.5 back to the sharp-letter test, where it found and fixed a flaw in the templates.
+- [09:55] The word skeleton survives. VICTIMS remains a reading, not a fact.
+- [10:00] And the ten-thousand-dollar reward, offered in 2016 for a definitive reading, has never been publicly claimed.
 
-## 10:04  16_end
+## 10:07  16_end
 *Visual: end*
 
-- [10:04] The methods, the test results, and Jev's agreement table are summarized in the description.
-- [10:09] This has been The Future Past.
+- [10:08] The methods, the test results, and Jev's agreement table are summarized in the description.
+- [10:13] This has been The Future Past.

@@ -68,8 +68,10 @@ def process(R):
         "against its one-letter misspellings and random strings with the same method.",
         "Jev flagged the script's sentence about the sharp-letter synthetic test (answer: contradicts). Reviewing that flag, "
         "Opus 5.5 found that the sharp-letter condition had been searched with blurred templates. Re-run with templates as "
-        "sharp as the letters, sharp letters came first in 4 of 20 trials instead of 0 of 20, which changed the conclusion "
-        "from 'the grain alone defeats template matching' to 'the blur and the grain together defeat it'.",
+        "sharp as the letters, sharp letters came first in 4 of 20 trials instead of 0 of 20. A later independent review "
+        "by Claude Fable 5.1 found that the planted letters' strength had been set over the whole line rather than over the "
+        "phrase, making them 1.2 to 2.3 times stronger than measured. With both fixes, sharp letters came first in 0 of 20 "
+        "trials at the real strength: the grain alone defeats template matching, and the blur makes it far worse.",
         "The video description summarizes the methods, the test results, and Jev's reader-agreement table.",
         "The film is a negative: the typed letters appear lighter than the background.",
     ]

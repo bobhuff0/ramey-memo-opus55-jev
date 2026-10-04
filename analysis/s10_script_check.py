@@ -19,7 +19,8 @@ REVIEW_NOTES = {
     "The film is a negative, so the typed letters": "Confirmed: letters are lighter than the background in every file; "
                                                     "steps s1-s5 measured the files before any reading.",
     "One of its flags sent Opus 5.5 back": "Confirmed: Jev answered 'contradicts' on the sharp-letter sentence; the review found "
-                                           "blurred templates in the sharp condition; the re-run changed 0 of 20 to 4 of 20.",
+                                           "blurred templates in the sharp condition and they were made sharp. (A later strength "
+                                           "fix, from the Fable 5.1 review, set the current 0 of 20.)",
     "Claude Opus 5.5 wrote and ran every step": "Confirmed: steps s1-s8 were written and run in this session by Claude Opus 5.5.",
     "On the right half, the four brightness files": "Confirmed: max shift 0.153 px (under 1/6 px = 0.167); grain NCC 0.80-0.92.",
     "Opus 5.5 mapped that shift point by point": "Confirmed: after dense re-alignment, left 65B 0.89 and 70B 0.87 ('almost point nine'); "
@@ -41,6 +42,12 @@ REVIEW_NOTES = {
     "Opus 5.5 rendered five undisputed phrases": "Confirmed: 4 fonts; 9 pitches, 3 letter heights, 5 blurs; slid along each straightened line.",
     "Some random strings beat every true phrase": "Confirmed: random strings above the truth range from 8/300 (WEATHER BALLOONS) to "
                                                   "219/300 (RAMEY); 65-144 one-letter misspellings beat each phrase.",
+    "Even with sharp letters, the true phrase": "Confirmed: A_sharp_grain first in 0 of 20; rank 10 or better in 4 of 20 "
+                                                "(10, 9, 5, 6); median 16.5.",
+    "Turn the letters up:": "Confirmed: sharp sweep first wins at 2x (2 of 4), all four by 4x; blurred sweep first wins at "
+                            "8x (2 of 4).",
+    "What Claude Opus 5.5 added": "Confirmed: shared grain (s1), software enlargement (s2), nine straightened lines (s4), and "
+                                  "synthetic A_sharp_grain 0 of 20 with the right font in the search (s7).",
     "Five phrases on four patches of film": "Confirmed: A and B each 5 phrases x 4 patches = 20 trials; Courier New Bold at 216 px in the search.",
     "FINDING came first out of three hundred and seven": "Confirmed: FINDING 1, REMAINS 4, VICTIMS 31 of 307; 26 random strings above VICTIMS.",
     "No. Not even the latest AI": "Conclusion from the calibration (true phrases 149th-285th) and synthetic (blurred: 0 of 20) results.",

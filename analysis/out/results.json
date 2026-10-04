@@ -20278,334 +20278,334 @@
      {
       "phrase": "OF THE WRECK",
       "patch": 0,
-      "rank": 6,
+      "rank": 14,
       "n": 451,
-      "truth_ncc": 0.3027914762496948,
+      "truth_ncc": 0.2026498168706894,
       "randoms_above": 0
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 1,
-      "rank": 8,
+      "rank": 22,
       "n": 451,
-      "truth_ncc": 0.29566335678100586,
+      "truth_ncc": 0.194648876786232,
       "randoms_above": 0
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 2,
-      "rank": 2,
+      "rank": 18,
       "n": 451,
-      "truth_ncc": 0.28376317024230957,
+      "truth_ncc": 0.17748036980628967,
       "randoms_above": 0
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 3,
-      "rank": 9,
+      "rank": 30,
       "n": 451,
-      "truth_ncc": 0.33958885073661804,
+      "truth_ncc": 0.23153625428676605,
       "randoms_above": 0
      },
      {
       "phrase": "WEATHER BALLOONS",
+      "patch": 0,
+      "rank": 29,
+      "n": 576,
+      "truth_ncc": 0.21109539270401,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "WEATHER BALLOONS",
+      "patch": 1,
+      "rank": 31,
+      "n": 576,
+      "truth_ncc": 0.2302234172821045,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "WEATHER BALLOONS",
+      "patch": 2,
+      "rank": 21,
+      "n": 576,
+      "truth_ncc": 0.219163715839386,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "WEATHER BALLOONS",
+      "patch": 3,
+      "rank": 36,
+      "n": 576,
+      "truth_ncc": 0.2482408583164215,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 0,
+      "rank": 27,
+      "n": 501,
+      "truth_ncc": 0.19725237786769867,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 1,
+      "rank": 10,
+      "n": 501,
+      "truth_ncc": 0.21699854731559753,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 2,
+      "rank": 14,
+      "n": 501,
+      "truth_ncc": 0.2048829048871994,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 3,
+      "rank": 18,
+      "n": 501,
+      "truth_ncc": 0.2407989650964737,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 0,
+      "rank": 14,
+      "n": 426,
+      "truth_ncc": 0.22228379547595978,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 1,
+      "rank": 15,
+      "n": 426,
+      "truth_ncc": 0.19914129376411438,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 2,
+      "rank": 9,
+      "n": 426,
+      "truth_ncc": 0.20115813612937927,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 3,
+      "rank": 5,
+      "n": 426,
+      "truth_ncc": 0.25270989537239075,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "RAMEY",
       "patch": 0,
       "rank": 13,
-      "n": 576,
-      "truth_ncc": 0.2738986611366272,
+      "n": 326,
+      "truth_ncc": 0.20784804224967957,
       "randoms_above": 0
      },
      {
-      "phrase": "WEATHER BALLOONS",
+      "phrase": "RAMEY",
       "patch": 1,
       "rank": 11,
-      "n": 576,
-      "truth_ncc": 0.292560875415802,
-      "randoms_above": 0
+      "n": 326,
+      "truth_ncc": 0.1715814471244812,
+      "randoms_above": 1
      },
      {
-      "phrase": "WEATHER BALLOONS",
-      "patch": 2,
-      "rank": 9,
-      "n": 576,
-      "truth_ncc": 0.28445371985435486,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "WEATHER BALLOONS",
-      "patch": 3,
-      "rank": 14,
-      "n": 576,
-      "truth_ncc": 0.3145611882209778,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORT WORTH, TEX.",
-      "patch": 0,
-      "rank": 12,
-      "n": 501,
-      "truth_ncc": 0.26192206144332886,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORT WORTH, TEX.",
-      "patch": 1,
-      "rank": 5,
-      "n": 501,
-      "truth_ncc": 0.2811189591884613,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORT WORTH, TEX.",
+      "phrase": "RAMEY",
       "patch": 2,
       "rank": 6,
-      "n": 501,
-      "truth_ncc": 0.27210479974746704,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORT WORTH, TEX.",
-      "patch": 3,
-      "rank": 7,
-      "n": 501,
-      "truth_ncc": 0.3088967502117157,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 0,
-      "rank": 2,
-      "n": 426,
-      "truth_ncc": 0.35881948471069336,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 1,
-      "rank": 2,
-      "n": 426,
-      "truth_ncc": 0.3365594446659088,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 2,
-      "rank": 1,
-      "n": 426,
-      "truth_ncc": 0.34449154138565063,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 3,
-      "rank": 2,
-      "n": 426,
-      "truth_ncc": 0.3969692885875702,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "RAMEY",
-      "patch": 0,
-      "rank": 1,
       "n": 326,
-      "truth_ncc": 0.4416808784008026,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "RAMEY",
-      "patch": 1,
-      "rank": 1,
-      "n": 326,
-      "truth_ncc": 0.4004867970943451,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "RAMEY",
-      "patch": 2,
-      "rank": 1,
-      "n": 326,
-      "truth_ncc": 0.4755106568336487,
+      "truth_ncc": 0.24029745161533356,
       "randoms_above": 0
      },
      {
       "phrase": "RAMEY",
       "patch": 3,
-      "rank": 3,
+      "rank": 20,
       "n": 326,
-      "truth_ncc": 0.4665541648864746,
+      "truth_ncc": 0.22808311879634857,
       "randoms_above": 0
      }
     ],
-    "wins": 4,
+    "wins": 0,
     "trials": 20,
-    "median_rank": 5.5
+    "median_rank": 16.5
    },
    "B_blur_grain": {
     "rows": [
      {
       "phrase": "OF THE WRECK",
       "patch": 0,
-      "rank": 90,
+      "rank": 118,
       "n": 451,
-      "truth_ncc": 0.22916671633720398,
-      "randoms_above": 5
+      "truth_ncc": 0.16056720912456512,
+      "randoms_above": 20
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 1,
-      "rank": 142,
+      "rank": 180,
       "n": 451,
-      "truth_ncc": 0.2015765756368637,
-      "randoms_above": 26
+      "truth_ncc": 0.13323377072811127,
+      "randoms_above": 69
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 2,
-      "rank": 45,
+      "rank": 63,
       "n": 451,
-      "truth_ncc": 0.2585758864879608,
-      "randoms_above": 0
+      "truth_ncc": 0.18786802887916565,
+      "randoms_above": 2
      },
      {
       "phrase": "OF THE WRECK",
       "patch": 3,
-      "rank": 63,
+      "rank": 78,
       "n": 451,
-      "truth_ncc": 0.30222299695014954,
-      "randoms_above": 0
+      "truth_ncc": 0.22985348105430603,
+      "randoms_above": 2
      },
      {
       "phrase": "WEATHER BALLOONS",
       "patch": 0,
-      "rank": 124,
+      "rank": 165,
       "n": 576,
-      "truth_ncc": 0.2040623128414154,
-      "randoms_above": 4
-     },
-     {
-      "phrase": "WEATHER BALLOONS",
-      "patch": 1,
-      "rank": 184,
-      "n": 576,
-      "truth_ncc": 0.18909700214862823,
+      "truth_ncc": 0.1623983383178711,
       "randoms_above": 14
      },
      {
       "phrase": "WEATHER BALLOONS",
-      "patch": 2,
-      "rank": 52,
+      "patch": 1,
+      "rank": 187,
       "n": 576,
-      "truth_ncc": 0.24558180570602417,
+      "truth_ncc": 0.1478618085384369,
+      "randoms_above": 28
+     },
+     {
+      "phrase": "WEATHER BALLOONS",
+      "patch": 2,
+      "rank": 65,
+      "n": 576,
+      "truth_ncc": 0.202948197722435,
       "randoms_above": 0
      },
      {
       "phrase": "WEATHER BALLOONS",
       "patch": 3,
-      "rank": 65,
+      "rank": 79,
       "n": 576,
-      "truth_ncc": 0.278936505317688,
+      "truth_ncc": 0.23572871088981628,
       "randoms_above": 0
      },
      {
       "phrase": "FORT WORTH, TEX.",
       "patch": 0,
-      "rank": 67,
+      "rank": 83,
       "n": 501,
-      "truth_ncc": 0.2027098834514618,
+      "truth_ncc": 0.1587361842393875,
       "randoms_above": 0
      },
      {
       "phrase": "FORT WORTH, TEX.",
       "patch": 1,
-      "rank": 128,
+      "rank": 159,
       "n": 501,
-      "truth_ncc": 0.19444583356380463,
+      "truth_ncc": 0.15117058157920837,
+      "randoms_above": 23
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 2,
+      "rank": 122,
+      "n": 501,
+      "truth_ncc": 0.18955151736736298,
+      "randoms_above": 4
+     },
+     {
+      "phrase": "FORT WORTH, TEX.",
+      "patch": 3,
+      "rank": 104,
+      "n": 501,
+      "truth_ncc": 0.22769416868686676,
+      "randoms_above": 8
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 0,
+      "rank": 36,
+      "n": 426,
+      "truth_ncc": 0.18457865715026855,
+      "randoms_above": 0
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 1,
+      "rank": 123,
+      "n": 426,
+      "truth_ncc": 0.11936812847852707,
+      "randoms_above": 40
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 2,
+      "rank": 214,
+      "n": 426,
+      "truth_ncc": 0.19513212144374847,
+      "randoms_above": 67
+     },
+     {
+      "phrase": "FORWARDED",
+      "patch": 3,
+      "rank": 82,
+      "n": 426,
+      "truth_ncc": 0.2529272139072418,
       "randoms_above": 7
      },
      {
-      "phrase": "FORT WORTH, TEX.",
-      "patch": 2,
-      "rank": 100,
-      "n": 501,
-      "truth_ncc": 0.23418918251991272,
-      "randoms_above": 1
-     },
-     {
-      "phrase": "FORT WORTH, TEX.",
-      "patch": 3,
-      "rank": 83,
-      "n": 501,
-      "truth_ncc": 0.2730371654033661,
-      "randoms_above": 2
-     },
-     {
-      "phrase": "FORWARDED",
+      "phrase": "RAMEY",
       "patch": 0,
-      "rank": 35,
-      "n": 426,
-      "truth_ncc": 0.2764912247657776,
-      "randoms_above": 0
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 1,
-      "rank": 60,
-      "n": 426,
-      "truth_ncc": 0.21468599140644073,
-      "randoms_above": 2
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 2,
-      "rank": 89,
-      "n": 426,
-      "truth_ncc": 0.2925502061843872,
-      "randoms_above": 10
-     },
-     {
-      "phrase": "FORWARDED",
-      "patch": 3,
-      "rank": 50,
-      "n": 426,
-      "truth_ncc": 0.35097670555114746,
-      "randoms_above": 0
+      "rank": 126,
+      "n": 326,
+      "truth_ncc": 0.167410209774971,
+      "randoms_above": 59
      },
      {
       "phrase": "RAMEY",
-      "patch": 0,
+      "patch": 1,
       "rank": 34,
       "n": 326,
-      "truth_ncc": 0.33154359459877014,
-      "randoms_above": 1
-     },
-     {
-      "phrase": "RAMEY",
-      "patch": 1,
-      "rank": 20,
-      "n": 326,
-      "truth_ncc": 0.2827082872390747,
-      "randoms_above": 0
+      "truth_ncc": 0.12492188066244125,
+      "randoms_above": 6
      },
      {
       "phrase": "RAMEY",
       "patch": 2,
-      "rank": 15,
+      "rank": 27,
       "n": 326,
-      "truth_ncc": 0.3638474941253662,
-      "randoms_above": 0
+      "truth_ncc": 0.19757314026355743,
+      "randoms_above": 6
      },
      {
       "phrase": "RAMEY",
       "patch": 3,
-      "rank": 31,
+      "rank": 59,
       "n": 326,
-      "truth_ncc": 0.4171854257583618,
-      "randoms_above": 1
+      "truth_ncc": 0.25238001346588135,
+      "randoms_above": 15
      }
     ],
     "wins": 0,
     "trials": 20,
-    "median_rank": 64.0
+    "median_rank": 93.5
    },
    "C_blur_nograin": {
     "rows": [
@@ -20622,7 +20622,7 @@
       "patch": 0,
       "rank": 1,
       "n": 576,
-      "truth_ncc": 0.9887086749076843,
+      "truth_ncc": 0.9887086153030396,
       "randoms_above": 0
      },
      {
@@ -20630,7 +20630,7 @@
       "patch": 0,
       "rank": 1,
       "n": 501,
-      "truth_ncc": 0.9757956862449646,
+      "truth_ncc": 0.9757957458496094,
       "randoms_above": 0
      },
      {
@@ -20638,7 +20638,7 @@
       "patch": 0,
       "rank": 1,
       "n": 426,
-      "truth_ncc": 0.9888617396354675,
+      "truth_ncc": 0.9888617992401123,
       "randoms_above": 0
      },
      {
@@ -20646,7 +20646,7 @@
       "patch": 0,
       "rank": 1,
       "n": 326,
-      "truth_ncc": 0.9839724898338318,
+      "truth_ncc": 0.9839725494384766,
       "randoms_above": 0
      }
     ],
@@ -20664,10 +20664,10 @@
      "mult": 1,
      "snr": 0.2935256458682502,
      "ranks": [
-      88,
-      140,
-      45,
-      63
+      113,
+      178,
+      63,
+      80
      ],
      "wins": 0
     },
@@ -20675,10 +20675,10 @@
      "mult": 1.5,
      "snr": 0.44028846880237527,
      "ranks": [
-      49,
-      56,
-      33,
-      38
+      87,
+      140,
+      42,
+      58
      ],
      "wins": 0
     },
@@ -20686,10 +20686,10 @@
      "mult": 2,
      "snr": 0.5870512917365004,
      "ranks": [
-      25,
-      36,
-      22,
-      22
+      58,
+      67,
+      35,
+      41
      ],
      "wins": 0
     },
@@ -20697,10 +20697,10 @@
      "mult": 3,
      "snr": 0.8805769376047505,
      "ranks": [
-      10,
-      21,
-      14,
-      5
+      24,
+      31,
+      20,
+      16
      ],
      "wins": 0
     },
@@ -20708,10 +20708,10 @@
      "mult": 4,
      "snr": 1.1741025834730008,
      "ranks": [
-      4,
       11,
-      9,
-      3
+      21,
+      15,
+      7
      ],
      "wins": 0
     },
@@ -20719,23 +20719,23 @@
      "mult": 6,
      "snr": 1.761153875209501,
      "ranks": [
-      1,
-      2,
       3,
-      1
+      9,
+      8,
+      3
      ],
-     "wins": 2
+     "wins": 0
     },
     {
      "mult": 8,
      "snr": 2.3482051669460016,
      "ranks": [
       1,
-      2,
-      1,
+      3,
+      3,
       1
      ],
-     "wins": 3
+     "wins": 2
     }
    ]
   },
@@ -20748,6 +20748,17 @@
      "mult": 1,
      "snr": 0.2935256458682502,
      "ranks": [
+      14,
+      22,
+      18,
+      30
+     ],
+     "wins": 0
+    },
+    {
+     "mult": 1.5,
+     "snr": 0.44028846880237527,
+     "ranks": [
       6,
       8,
       2,
@@ -20756,37 +20767,26 @@
      "wins": 0
     },
     {
-     "mult": 1.5,
-     "snr": 0.44028846880237527,
-     "ranks": [
-      1,
-      2,
-      1,
-      1
-     ],
-     "wins": 3
-    },
-    {
      "mult": 2,
      "snr": 0.5870512917365004,
      "ranks": [
-      1,
       2,
+      4,
       1,
       1
      ],
-     "wins": 3
+     "wins": 2
     },
     {
      "mult": 3,
      "snr": 0.8805769376047505,
      "ranks": [
       1,
-      1,
+      2,
       1,
       1
      ],
-     "wins": 4
+     "wins": 3
     },
     {
      "mult": 4,
@@ -20846,14 +20846,154 @@
   "reviewer": "Claude Opus 5.5, against results.json and factcheck.md",
   "sentences": 84,
   "checkable": 66,
-  "verified": 46,
-  "review": 20,
+  "verified": 45,
+  "review": 21,
   "pending": 0,
   "checked": [
    {
     "scene": "01_title",
     "sentence": "On July 8, 1947, Fort Worth Star-Telegram photographer J. Bond Johnson caught General Roger Ramey holding a typed message, probably a teletype, at the press session where Roswell's flying disc became a weather balloon.",
     "p_checkable": 0.99,
+    "relation": "supports",
+    "confidence": 0.98,
+    "probabilities": {
+     "supports": 0.98,
+     "contradicts": 0.01,
+     "says_nothing": 0.01
+    },
+    "action": "verified",
+    "review_note": ""
+   },
+   {
+    "scene": "01_title",
+    "sentence": "For almost forty years, researchers have tried to read that slip of paper.",
+    "p_checkable": 0.95,
+    "relation": "supports",
+    "confidence": 0.78,
+    "probabilities": {
+     "supports": 0.85,
+     "contradicts": 0.12,
+     "says_nothing": 0.03
+    },
+    "action": "review",
+    "review_note": "Confirmed: factcheck.md 2, Brad Sparks made out words in the mid-1980s; about forty years by 2026."
+   },
+   {
+    "scene": "01_title",
+    "sentence": "Now it has been through the latest in publicly available AI: Anthropic's Claude Opus 5.5, and Jev, from TypeSafe.",
+    "p_checkable": 0.96,
+    "relation": "supports",
+    "confidence": 0.89,
+    "probabilities": {
+     "supports": 0.93,
+     "contradicts": 0.02,
+     "says_nothing": 0.05
+    },
+    "action": "verified",
+    "review_note": ""
+   },
+   {
+    "scene": "01_title",
+    "sentence": "Opus 5.5 rebuilt the image analysis from the raw scans. Jev, a new kind of model that answers narrow questions with probabilities, judged the words.",
+    "p_checkable": 0.92,
+    "relation": "supports",
+    "confidence": 0.91,
+    "probabilities": {
+     "supports": 0.94,
+     "contradicts": 0.02,
+     "says_nothing": 0.04
+    },
+    "action": "verified",
+    "review_note": ""
+   },
+   {
+    "scene": "01_title",
+    "sentence": "The question is simple: can AI read it?",
+    "p_checkable": 0.04,
+    "relation": "supports",
+    "confidence": 0.29,
+    "probabilities": {
+     "contradicts": 0.03,
+     "supports": 0.52,
+     "says_nothing": 0.45
+    },
+    "action": "not a claim",
+    "review_note": ""
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "Each system had a different job.",
+    "p_checkable": 0.29,
+    "relation": "supports",
+    "confidence": 0.85,
+    "probabilities": {
+     "says_nothing": 0.09,
+     "supports": 0.9,
+     "contradicts": 0.01
+    },
+    "action": "not a claim",
+    "review_note": ""
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "Claude Opus 5.5 wrote and ran every step of the image analysis: aligning the scans, measuring the film grain, straightening the typed lines, and testing whether letter matching can find words nobody disputes.",
+    "p_checkable": 0.97,
+    "relation": "supports",
+    "confidence": 0.82,
+    "probabilities": {
+     "says_nothing": 0.03,
+     "supports": 0.87,
+     "contradicts": 0.1
+    },
+    "action": "verified",
+    "review_note": "Confirmed: steps s1-s8 were written and run in this session by Claude Opus 5.5."
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "Jev, version 1.13, cannot see images. It reads text and returns a probability for each question, so it got the questions about words.",
+    "p_checkable": 0.98,
+    "relation": "supports",
+    "confidence": 0.94,
+    "probabilities": {
+     "says_nothing": 0.01,
+     "supports": 0.96,
+     "contradicts": 0.03
+    },
+    "action": "verified",
+    "review_note": ""
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "When ten researchers transcribe the same spot, do two readings name the same word, like DISC spelled with a C or with a K, or different words, like VICTIMS and VIEWING?",
+    "p_checkable": 0.35,
+    "relation": "supports",
+    "confidence": 0.35,
+    "probabilities": {
+     "says_nothing": 0.06,
+     "supports": 0.57,
+     "contradicts": 0.37
+    },
+    "action": "not a claim",
+    "review_note": ""
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "And is each factual sentence in this script supported by the measurements?",
+    "p_checkable": 0.06,
+    "relation": "supports",
+    "confidence": 0.9,
+    "probabilities": {
+     "says_nothing": 0.03,
+     "supports": 0.9400000000000001,
+     "contradicts": 0.03
+    },
+    "action": "not a claim",
+    "review_note": ""
+   },
+   {
+    "scene": "02_tools",
+    "sentence": "In every case, code, not the models, sets the thresholds and keeps the score.",
+    "p_checkable": 0.7,
     "relation": "supports",
     "confidence": 0.98,
     "probabilities": {
@@ -20865,155 +21005,15 @@
     "review_note": ""
    },
    {
-    "scene": "01_title",
-    "sentence": "For almost forty years, researchers have tried to read that slip of paper.",
-    "p_checkable": 0.95,
-    "relation": "supports",
-    "confidence": 0.79,
-    "probabilities": {
-     "says_nothing": 0.02,
-     "supports": 0.86,
-     "contradicts": 0.12
-    },
-    "action": "review",
-    "review_note": "Confirmed: factcheck.md 2, Brad Sparks made out words in the mid-1980s; about forty years by 2026."
-   },
-   {
-    "scene": "01_title",
-    "sentence": "Now it has been through the latest in publicly available AI: Anthropic's Claude Opus 5.5, and Jev, from TypeSafe.",
-    "p_checkable": 0.95,
-    "relation": "supports",
-    "confidence": 0.87,
-    "probabilities": {
-     "supports": 0.91,
-     "says_nothing": 0.06,
-     "contradicts": 0.03
-    },
-    "action": "verified",
-    "review_note": ""
-   },
-   {
-    "scene": "01_title",
-    "sentence": "Opus 5.5 rebuilt the image analysis from the raw scans. Jev, a new kind of model that answers narrow questions with probabilities, judged the words.",
-    "p_checkable": 0.93,
-    "relation": "supports",
-    "confidence": 0.94,
-    "probabilities": {
-     "supports": 0.95,
-     "says_nothing": 0.03,
-     "contradicts": 0.02
-    },
-    "action": "verified",
-    "review_note": ""
-   },
-   {
-    "scene": "01_title",
-    "sentence": "The question is simple: can AI read it?",
-    "p_checkable": 0.04,
-    "relation": "says_nothing",
-    "confidence": 0.25,
-    "probabilities": {
-     "says_nothing": 0.5,
-     "supports": 0.48,
-     "contradicts": 0.02
-    },
-    "action": "not a claim",
-    "review_note": ""
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "Each system had a different job.",
-    "p_checkable": 0.22,
-    "relation": "supports",
-    "confidence": 0.81,
-    "probabilities": {
-     "contradicts": 0.01,
-     "says_nothing": 0.12,
-     "supports": 0.87
-    },
-    "action": "not a claim",
-    "review_note": ""
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "Claude Opus 5.5 wrote and ran every step of the image analysis: aligning the scans, measuring the film grain, straightening the typed lines, and testing whether letter matching can find words nobody disputes.",
-    "p_checkable": 0.97,
-    "relation": "supports",
-    "confidence": 0.76,
-    "probabilities": {
-     "contradicts": 0.13,
-     "says_nothing": 0.03,
-     "supports": 0.84
-    },
-    "action": "review",
-    "review_note": "Confirmed: steps s1-s8 were written and run in this session by Claude Opus 5.5."
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "Jev, version 1.13, cannot see images. It reads text and returns a probability for each question, so it got the questions about words.",
-    "p_checkable": 0.98,
-    "relation": "supports",
-    "confidence": 0.94,
-    "probabilities": {
-     "says_nothing": 0.01,
-     "contradicts": 0.03,
-     "supports": 0.96
-    },
-    "action": "verified",
-    "review_note": ""
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "When ten researchers transcribe the same spot, do two readings name the same word, like DISC spelled with a C or with a K, or different words, like VICTIMS and VIEWING?",
-    "p_checkable": 0.39,
-    "relation": "contradicts",
-    "confidence": 0.25,
-    "probabilities": {
-     "contradicts": 0.5,
-     "says_nothing": 0.04,
-     "supports": 0.46
-    },
-    "action": "not a claim",
-    "review_note": ""
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "And is each factual sentence in this script supported by the measurements?",
-    "p_checkable": 0.06,
-    "relation": "supports",
-    "confidence": 0.91,
-    "probabilities": {
-     "contradicts": 0.03,
-     "says_nothing": 0.04,
-     "supports": 0.9299999999999999
-    },
-    "action": "not a claim",
-    "review_note": ""
-   },
-   {
-    "scene": "02_tools",
-    "sentence": "In every case, code, not the models, sets the thresholds and keeps the score.",
-    "p_checkable": 0.66,
-    "relation": "supports",
-    "confidence": 0.98,
-    "probabilities": {
-     "contradicts": 0.01,
-     "says_nothing": 0.0,
-     "supports": 0.99
-    },
-    "action": "verified",
-    "review_note": ""
-   },
-   {
     "scene": "03_files",
     "sentence": "UTA posts twenty-three scan files. Claude Opus 5.5 worked from nine of them.",
     "p_checkable": 0.99,
     "relation": "supports",
-    "confidence": 0.83,
+    "confidence": 0.88,
     "probabilities": {
-     "says_nothing": 0.08,
-     "contradicts": 0.03,
-     "supports": 0.89
+     "supports": 0.92,
+     "says_nothing": 0.07,
+     "contradicts": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -21025,9 +21025,9 @@
     "relation": "supports",
     "confidence": 0.99,
     "probabilities": {
+     "supports": 0.99,
      "says_nothing": 0.0,
-     "contradicts": 0.0,
-     "supports": 1.0
+     "contradicts": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -21035,15 +21035,15 @@
    {
     "scene": "03_files",
     "sentence": "The film is a negative, so the typed letters show up light. Before reading anything, Opus 5.5 measured what the files actually contain.",
-    "p_checkable": 0.93,
+    "p_checkable": 0.94,
     "relation": "supports",
-    "confidence": 0.79,
+    "confidence": 0.81,
     "probabilities": {
+     "supports": 0.87,
      "says_nothing": 0.11,
-     "contradicts": 0.03,
-     "supports": 0.86
+     "contradicts": 0.02
     },
-    "action": "review",
+    "action": "verified",
     "review_note": "Confirmed: letters are lighter than the background in every file; steps s1-s5 measured the files before any reading."
    },
    {
@@ -21175,13 +21175,13 @@
    {
     "scene": "06_denoise",
     "sentence": "Opus 5.5 tried Gaussian smoothing, total-variation denoising, non-local means, median filtering, and smoothing at the size of the measured blur.",
-    "p_checkable": 0.96,
+    "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.92,
+    "confidence": 0.88,
     "probabilities": {
-     "says_nothing": 0.01,
-     "supports": 0.95,
-     "contradicts": 0.04
+     "supports": 0.92,
+     "contradicts": 0.07,
+     "says_nothing": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -21191,11 +21191,11 @@
     "sentence": "Every method produced the same result: words as blobs.",
     "p_checkable": 0.91,
     "relation": "supports",
-    "confidence": 0.92,
+    "confidence": 0.89,
     "probabilities": {
-     "says_nothing": 0.01,
-     "supports": 0.94,
-     "contradicts": 0.05
+     "supports": 0.93,
+     "contradicts": 0.06,
+     "says_nothing": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -21203,13 +21203,13 @@
    {
     "scene": "06_denoise",
     "sentence": "Light smoothing leaves the grain. Heavy smoothing takes the strokes with it.",
-    "p_checkable": 0.24,
+    "p_checkable": 0.22,
     "relation": "says_nothing",
-    "confidence": 0.36,
+    "confidence": 0.31,
     "probabilities": {
-     "says_nothing": 0.58,
-     "supports": 0.31,
-     "contradicts": 0.11
+     "supports": 0.42,
+     "contradicts": 0.05,
+     "says_nothing": 0.53
     },
     "action": "not a claim",
     "review_note": ""
@@ -21217,13 +21217,13 @@
    {
     "scene": "07_dewarp",
     "sentence": "What could be fixed was the geometry.",
-    "p_checkable": 0.06,
-    "relation": "supports",
-    "confidence": 0.36,
+    "p_checkable": 0.07,
+    "relation": "says_nothing",
+    "confidence": 0.22,
     "probabilities": {
-     "says_nothing": 0.4,
-     "supports": 0.57,
-     "contradicts": 0.03
+     "says_nothing": 0.48,
+     "contradicts": 0.06,
+     "supports": 0.46
     },
     "action": "not a claim",
     "review_note": ""
@@ -21233,11 +21233,11 @@
     "sentence": "The paper is curled and tilted. Across a half-scan, one typed line drifts up or down by as much as three hundred and forty pixels, more than half the gap between lines.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.76,
+    "confidence": 0.71,
     "probabilities": {
      "says_nothing": 0.01,
-     "supports": 0.83,
-     "contradicts": 0.16
+     "contradicts": 0.19,
+     "supports": 0.8
     },
     "action": "review",
     "review_note": "Confirmed: right line 5 drifts 339 px; right median spacing 547 px (ratio 0.62)."
@@ -21245,13 +21245,13 @@
    {
     "scene": "07_dewarp",
     "sentence": "Opus 5.5 traced each line by following its pattern of letters from column to column, and resampled every line flat.",
-    "p_checkable": 0.93,
+    "p_checkable": 0.92,
     "relation": "supports",
     "confidence": 0.99,
     "probabilities": {
      "says_nothing": 0.0,
-     "supports": 1.0,
-     "contradicts": 0.0
+     "contradicts": 0.0,
+     "supports": 1.0
     },
     "action": "verified",
     "review_note": ""
@@ -21264,8 +21264,8 @@
     "confidence": 0.99,
     "probabilities": {
      "says_nothing": 0.0,
-     "supports": 1.0,
-     "contradicts": 0.0
+     "contradicts": 0.0,
+     "supports": 1.0
     },
     "action": "verified",
     "review_note": ""
@@ -21275,11 +21275,11 @@
     "sentence": "This is the cleanest view of the memo that Opus 5.5 could get from these scans: nine lines, straightened and joined.",
     "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.64,
+    "confidence": 0.68,
     "probabilities": {
      "contradicts": 0.02,
-     "supports": 0.76,
-     "says_nothing": 0.22
+     "says_nothing": 0.19,
+     "supports": 0.79
     },
     "action": "review",
     "review_note": "Judgment, worded as Opus 5.5's result; nine lines confirmed (left 1-8, right 1,2,4-9)."
@@ -21292,8 +21292,8 @@
     "confidence": 1.0,
     "probabilities": {
      "contradicts": 0.0,
-     "supports": 1.0,
-     "says_nothing": 0.0
+     "says_nothing": 0.0,
+     "supports": 1.0
     },
     "action": "verified",
     "review_note": ""
@@ -21301,13 +21301,13 @@
    {
     "scene": "08_straight",
     "sentence": "Word lengths and spacing are clear.",
-    "p_checkable": 0.32,
+    "p_checkable": 0.35,
     "relation": "contradicts",
-    "confidence": 0.21,
+    "confidence": 0.22,
     "probabilities": {
-     "contradicts": 0.47,
-     "supports": 0.4,
-     "says_nothing": 0.13
+     "contradicts": 0.48,
+     "supports": 0.44,
+     "says_nothing": 0.08
     },
     "action": "not a claim",
     "review_note": ""
@@ -21317,11 +21317,11 @@
     "sentence": "A seven-letter word before OF THE WRECK on line two.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.98,
+    "confidence": 0.97,
     "probabilities": {
      "contradicts": 0.01,
-     "supports": 0.98,
-     "says_nothing": 0.01
+     "says_nothing": 0.01,
+     "supports": 0.98
     },
     "action": "verified",
     "review_note": ""
@@ -21331,11 +21331,11 @@
     "sentence": "The short line: AT FORT WORTH, TEX.",
     "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.59,
+    "confidence": 0.71,
     "probabilities": {
-     "contradicts": 0.21,
-     "supports": 0.73,
-     "says_nothing": 0.06
+     "contradicts": 0.15,
+     "says_nothing": 0.05,
+     "supports": 0.8
     },
     "action": "review",
     "review_note": "Confirmed: line 3 is traced only on the left half; agreed words AT FORT WORTH TEX."
@@ -21343,12 +21343,12 @@
    {
     "scene": "08_straight",
     "sentence": "WEATHER BALLOONS on line seven, and a short signature on line nine.",
-    "p_checkable": 0.98,
+    "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.9,
+    "confidence": 0.89,
     "probabilities": {
-     "contradicts": 0.04,
-     "supports": 0.93,
+     "contradicts": 0.05,
+     "supports": 0.92,
      "says_nothing": 0.03
     },
     "action": "verified",
@@ -21357,13 +21357,13 @@
    {
     "scene": "08_straight",
     "sentence": "Letters, though, are still blobs.",
-    "p_checkable": 0.69,
+    "p_checkable": 0.62,
     "relation": "supports",
-    "confidence": 0.98,
+    "confidence": 0.97,
     "probabilities": {
      "contradicts": 0.01,
-     "supports": 0.98,
-     "says_nothing": 0.01
+     "says_nothing": 0.01,
+     "supports": 0.98
     },
     "action": "verified",
     "review_note": ""
@@ -21483,13 +21483,13 @@
    {
     "scene": "10_victims",
     "sentence": "The fight is over one word. Seven letters, before OF THE WRECK.",
-    "p_checkable": 0.95,
+    "p_checkable": 0.96,
     "relation": "supports",
-    "confidence": 0.87,
+    "confidence": 0.85,
     "probabilities": {
-     "says_nothing": 0.04,
-     "contradicts": 0.05,
-     "supports": 0.91
+     "contradicts": 0.06,
+     "supports": 0.9,
+     "says_nothing": 0.04
     },
     "action": "verified",
     "review_note": ""
@@ -21499,11 +21499,11 @@
     "sentence": "VICTIMS, say six of the ten readers, among them David Rudiak, who has worked on this memo for more than twenty-five years.",
     "p_checkable": 0.99,
     "relation": "supports",
-    "confidence": 0.31,
+    "confidence": 0.56,
     "probabilities": {
-     "says_nothing": 0.02,
-     "contradicts": 0.45,
-     "supports": 0.53
+     "contradicts": 0.28,
+     "supports": 0.71,
+     "says_nothing": 0.01
     },
     "action": "review",
     "review_note": "Confirmed: VICTIMS readers include David Rudiak (R); factcheck.md 3: memo work since about 1999-2000, so more than twenty-five years."
@@ -21513,11 +21513,11 @@
     "sentence": "REMAINS, say two others. FINDING, says Brad Sparks. VIEWING has been suggested too.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.68,
+    "confidence": 0.72,
     "probabilities": {
-     "says_nothing": 0.04,
-     "contradicts": 0.18,
-     "supports": 0.78
+     "contradicts": 0.15,
+     "supports": 0.8200000000000001,
+     "says_nothing": 0.03
     },
     "action": "review",
     "review_note": "Confirmed: REMAINS (Fishbine, McNeff), FINDING (Sparks); VIEWING suggested (factcheck.md 4d)."
@@ -21527,11 +21527,11 @@
     "sentence": "By Jev's count, VICTIMS just clears the six-reader bar. But agreement among readers is not evidence from the pixels.",
     "p_checkable": 0.91,
     "relation": "supports",
-    "confidence": 0.7,
+    "confidence": 0.73,
     "probabilities": {
-     "says_nothing": 0.1,
-     "contradicts": 0.1,
-     "supports": 0.8
+     "contradicts": 0.08,
+     "supports": 0.82,
+     "says_nothing": 0.1
     },
     "action": "review",
     "review_note": "Confirmed: 6 readers equals the 6-reader threshold; second sentence is a caution, not a claim."
@@ -21539,13 +21539,13 @@
    {
     "scene": "10_victims",
     "sentence": "In 2016, Rudiak reported an unpublished test: letter templates scored VICTIMS above its rivals and two nonsense words, and about as well as FORT WORTH and WEATHER BALLOONS.",
-    "p_checkable": 0.99,
+    "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.92,
+    "confidence": 0.98,
     "probabilities": {
-     "says_nothing": 0.01,
-     "contradicts": 0.04,
-     "supports": 0.95
+     "contradicts": 0.01,
+     "supports": 0.99,
+     "says_nothing": 0.0
     },
     "action": "verified",
     "review_note": ""
@@ -21553,13 +21553,13 @@
    {
     "scene": "10_victims",
     "sentence": "Opus 5.5 asked the question that has to come first: can the method find words that nobody disputes?",
-    "p_checkable": 0.17,
+    "p_checkable": 0.16,
     "relation": "supports",
-    "confidence": 0.39,
+    "confidence": 0.52,
     "probabilities": {
-     "says_nothing": 0.39,
      "contradicts": 0.02,
-     "supports": 0.59
+     "supports": 0.68,
+     "says_nothing": 0.3
     },
     "action": "not a claim",
     "review_note": ""
@@ -21569,10 +21569,10 @@
     "sentence": "Here is the test.",
     "p_checkable": 0.04,
     "relation": "says_nothing",
-    "confidence": 0.43,
+    "confidence": 0.33,
     "probabilities": {
-     "says_nothing": 0.62,
-     "supports": 0.37,
+     "says_nothing": 0.55,
+     "supports": 0.44,
      "contradicts": 0.01
     },
     "action": "not a claim",
@@ -21583,11 +21583,11 @@
     "sentence": "Opus 5.5 rendered five undisputed phrases in four monospace fonts, over a grid of letter sizes, spacings and blurs, and slid each one along its straightened line.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.7,
+    "confidence": 0.74,
     "probabilities": {
      "says_nothing": 0.01,
-     "supports": 0.8,
-     "contradicts": 0.19
+     "supports": 0.83,
+     "contradicts": 0.16
     },
     "action": "review",
     "review_note": "Confirmed: 4 fonts; 9 pitches, 3 letter heights, 5 blurs; slid along each straightened line."
@@ -21597,11 +21597,11 @@
     "sentence": "The letter size and blur were fitted on the other four phrases, so no phrase was tested on settings tuned to itself.",
     "p_checkable": 0.95,
     "relation": "supports",
-    "confidence": 0.91,
+    "confidence": 0.95,
     "probabilities": {
      "says_nothing": 0.0,
-     "supports": 0.94,
-     "contradicts": 0.06
+     "supports": 0.97,
+     "contradicts": 0.03
     },
     "action": "verified",
     "review_note": ""
@@ -21611,7 +21611,7 @@
     "sentence": "Then it scored every one-letter misspelling of each phrase, and three hundred strings of random letters with the same spacing.",
     "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.94,
+    "confidence": 0.93,
     "probabilities": {
      "says_nothing": 0.01,
      "supports": 0.95,
@@ -21625,11 +21625,11 @@
     "sentence": "FORT WORTH, TEX. came a hundred and eighty-third out of six hundred and one. A hundred and thirty-two misspellings beat it, and so did fifty random strings.",
     "p_checkable": 0.99,
     "relation": "supports",
-    "confidence": 0.97,
+    "confidence": 0.98,
     "probabilities": {
      "says_nothing": 0.0,
-     "supports": 0.98,
-     "contradicts": 0.02
+     "supports": 0.99,
+     "contradicts": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -21639,11 +21639,11 @@
     "sentence": "WEATHER BALLOONS came a hundred and fifty-third. OF THE WRECK, a hundred and forty-ninth. RAMEY lost to two hundred and nineteen of the three hundred random strings.",
     "p_checkable": 0.99,
     "relation": "supports",
-    "confidence": 0.83,
+    "confidence": 0.92,
     "probabilities": {
      "says_nothing": 0.01,
-     "supports": 0.89,
-     "contradicts": 0.1
+     "supports": 0.94,
+     "contradicts": 0.05
     },
     "action": "verified",
     "review_note": ""
@@ -21653,11 +21653,11 @@
     "sentence": "Some random strings beat every true phrase: eight of three hundred for WEATHER BALLOONS, and up to two hundred and nineteen for RAMEY. The method cannot reliably pick real words from random letters, let alone one letter from another.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.3,
+    "confidence": 0.47,
     "probabilities": {
      "says_nothing": 0.03,
-     "supports": 0.53,
-     "contradicts": 0.44
+     "supports": 0.65,
+     "contradicts": 0.32
     },
     "action": "review",
     "review_note": "Confirmed: random strings above the truth range from 8/300 (WEATHER BALLOONS) to 219/300 (RAMEY); 65-144 one-letter misspellings beat each phrase."
@@ -21665,13 +21665,13 @@
    {
     "scene": "12_synth",
     "sentence": "Why does it fail? Opus 5.5 built fake memo lines where the answer is known: a true phrase, typeset, laid on real blank film from the same negative, at the letter strength measured on the real lines.",
-    "p_checkable": 0.92,
+    "p_checkable": 0.93,
     "relation": "supports",
-    "confidence": 0.98,
+    "confidence": 0.96,
     "probabilities": {
-     "supports": 0.99,
+     "contradicts": 0.02,
      "says_nothing": 0.0,
-     "contradicts": 0.01
+     "supports": 0.98
     },
     "action": "verified",
     "review_note": ""
@@ -21681,39 +21681,39 @@
     "sentence": "Five phrases on four patches of film make twenty trials, and the search included the right font at the right size.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.4,
+    "confidence": 0.74,
     "probabilities": {
-     "supports": 0.6,
+     "contradicts": 0.16,
      "says_nothing": 0.02,
-     "contradicts": 0.38
+     "supports": 0.82
     },
     "action": "review",
     "review_note": "Confirmed: A and B each 5 phrases x 4 patches = 20 trials; Courier New Bold at 216 px in the search."
    },
    {
     "scene": "12_synth",
-    "sentence": "With sharp letters, the true phrase usually made the top ten, and came first in four of twenty trials.",
+    "sentence": "Even with sharp letters, the true phrase came first in none of twenty trials, and made the top ten in only four.",
     "p_checkable": 0.99,
     "relation": "supports",
-    "confidence": 0.93,
+    "confidence": 0.27,
     "probabilities": {
-     "supports": 0.95,
-     "says_nothing": 0.01,
-     "contradicts": 0.04
+     "contradicts": 0.46,
+     "says_nothing": 0.02,
+     "supports": 0.52
     },
-    "action": "verified",
-    "review_note": ""
+    "action": "review",
+    "review_note": "Confirmed: A_sharp_grain first in 0 of 20; rank 10 or better in 4 of 20 (10, 9, 5, 6); median 16.5."
    },
    {
     "scene": "12_synth",
-    "sentence": "Blurred the way the memo's letters are, it came first in none of twenty.",
+    "sentence": "Blurred the way the memo's letters are, it did far worse, typically ranking around ninety-fourth.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.98,
+    "confidence": 0.97,
     "probabilities": {
-     "supports": 0.99,
+     "contradicts": 0.02,
      "says_nothing": 0.0,
-     "contradicts": 0.01
+     "supports": 0.98
     },
     "action": "verified",
     "review_note": ""
@@ -21723,39 +21723,39 @@
     "sentence": "Take the grain away, and even the blurred phrase comes first, five times out of five.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.99,
+    "confidence": 1.0,
     "probabilities": {
-     "supports": 1.0,
+     "contradicts": 0.0,
      "says_nothing": 0.0,
-     "contradicts": 0.0
+     "supports": 1.0
     },
     "action": "verified",
     "review_note": ""
    },
    {
     "scene": "12_synth",
-    "sentence": "Turn the letters up: sharp letters start winning at one and a half times the real strength, blurred letters only at six times.",
+    "sentence": "Turn the letters up: sharp letters start winning at twice the real strength, blurred letters only at eight times.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.96,
+    "confidence": 0.75,
     "probabilities": {
-     "supports": 0.97,
+     "contradicts": 0.16,
      "says_nothing": 0.01,
-     "contradicts": 0.02
+     "supports": 0.83
     },
-    "action": "verified",
-    "review_note": ""
+    "action": "review",
+    "review_note": "Confirmed: sharp sweep first wins at 2x (2 of 4), all four by 4x; blurred sweep first wins at 8x (2 of 4)."
    },
    {
     "scene": "12_synth",
-    "sentence": "It takes the blur and the grain together to defeat the method, and the memo has both. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.",
-    "p_checkable": 0.74,
+    "sentence": "So at the memo's strength, the grain alone defeats the method, and the blur makes it far worse. Its own scores suggest its letters are, if anything, a little weaker than these tests assumed.",
+    "p_checkable": 0.7,
     "relation": "supports",
-    "confidence": 0.96,
+    "confidence": 0.87,
     "probabilities": {
-     "supports": 0.97,
-     "says_nothing": 0.01,
-     "contradicts": 0.02
+     "contradicts": 0.07,
+     "says_nothing": 0.02,
+     "supports": 0.91
     },
     "action": "verified",
     "review_note": ""
@@ -21905,11 +21905,11 @@
     "sentence": "So, can AI read the Ramey memo?",
     "p_checkable": 0.04,
     "relation": "says_nothing",
-    "confidence": 0.43,
+    "confidence": 0.39,
     "probabilities": {
-     "supports": 0.33,
-     "contradicts": 0.05,
-     "says_nothing": 0.62
+     "contradicts": 0.03,
+     "says_nothing": 0.6,
+     "supports": 0.37
     },
     "action": "not a claim",
     "review_note": ""
@@ -21917,69 +21917,69 @@
    {
     "scene": "15_verdict",
     "sentence": "No. Not even the latest AI, not from these scans, and not by matching letter templates.",
-    "p_checkable": 0.59,
+    "p_checkable": 0.56,
     "relation": "supports",
-    "confidence": 0.56,
+    "confidence": 0.72,
     "probabilities": {
-     "supports": 0.7,
+     "contradicts": 0.13,
      "says_nothing": 0.06,
-     "contradicts": 0.24
+     "supports": 0.8099999999999999
     },
     "action": "review",
     "review_note": "Conclusion from the calibration (true phrases 149th-285th) and synthetic (blurred: 0 of 20) results."
    },
    {
     "scene": "15_verdict",
-    "sentence": "What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's blur and grain together defeat template matching, even with the right font.",
+    "sentence": "What Claude Opus 5.5 added: evidence that every file carries one negative's grain and was enlarged in software, a straightened view of all nine lines, and a known-answer test showing that the memo's grain defeats template matching, even for sharp letters in the right font.",
     "p_checkable": 0.97,
     "relation": "supports",
-    "confidence": 0.85,
+    "confidence": 0.51,
     "probabilities": {
-     "supports": 0.89,
-     "contradicts": 0.08,
-     "says_nothing": 0.03
+     "contradicts": 0.28,
+     "says_nothing": 0.05,
+     "supports": 0.67
     },
-    "action": "verified",
-    "review_note": ""
+    "action": "review",
+    "review_note": "Confirmed: shared grain (s1), software enlargement (s2), nine straightened lines (s4), and synthetic A_sharp_grain 0 of 20 with the right font in the search (s7)."
    },
    {
     "scene": "15_verdict",
     "sentence": "What Jev added: a word-by-word count of where ten human readers truly agree, and a check of every factual sentence in this script against the measurements.",
-    "p_checkable": 0.83,
+    "p_checkable": 0.92,
     "relation": "supports",
-    "confidence": 0.86,
+    "confidence": 0.89,
     "probabilities": {
-     "supports": 0.91,
      "contradicts": 0.04,
-     "says_nothing": 0.05
+     "says_nothing": 0.04,
+     "supports": 0.92
     },
     "action": "verified",
     "review_note": ""
    },
    {
     "scene": "15_verdict",
-    "sentence": "One of its flags sent Opus 5.5 back to the sharp-letter test, and fixing that test changed a conclusion.",
-    "p_checkable": 0.74,
+    "sentence": "One of its flags sent Opus 5.5 back to the sharp-letter test, where it found and fixed a flaw in the templates.",
+    "p_checkable": 0.71,
     "relation": "supports",
-    "confidence": 0.85,
+    "confidence": 0.81,
     "probabilities": {
-     "supports": 0.89,
-     "contradicts": 0.02,
-     "says_nothing": 0.09
+     "contradicts": 0.06,
+     "says_nothing": 0.06,
+     "supports": 0.88
     },
     "action": "verified",
-    "review_note": "Confirmed: Jev answered 'contradicts' on the sharp-letter sentence; the review found blurred templates in the sharp condition; the re-run changed 0 of 20 to 4 of 20."
+    "review_note": "Confirmed: Jev answered 'contradicts' on the sharp-letter sentence; the review found blurred templates in the sharp condition and they were made sharp. (A later strength fix, from the Fable 5.1 review, set the current 0 of 20.)"
    },
    {
     "scene": "15_verdict",
     "sentence": "The word skeleton survives. VICTIMS remains a reading, not a fact.",
-    "p_checkable": 0.73,
+    "p_checkable": 0.78,
     "relation": "supports",
-    "confidence": 0.89,
+    "confidence": 0.91,
     "probabilities": {
-     "supports": 0.93,
-     "contradicts": 0.03,
-     "says_nothing": 0.04
+     "contradicts": 0.04,
+     "says_nothing": 0.02,
+     "supports": 0.94
     },
     "action": "verified",
     "review_note": ""
@@ -21989,11 +21989,11 @@
     "sentence": "And the ten-thousand-dollar reward, offered in 2016 for a definitive reading, has never been publicly claimed.",
     "p_checkable": 0.98,
     "relation": "supports",
-    "confidence": 0.95,
+    "confidence": 0.97,
     "probabilities": {
-     "supports": 0.97,
-     "contradicts": 0.0,
-     "says_nothing": 0.03
+     "contradicts": 0.01,
+     "says_nothing": 0.02,
+     "supports": 0.97
     },
     "action": "verified",
     "review_note": ""
@@ -22001,13 +22001,13 @@
    {
     "scene": "16_end",
     "sentence": "The methods, the test results, and Jev's agreement table are summarized in the description.",
-    "p_checkable": 0.81,
+    "p_checkable": 0.83,
     "relation": "supports",
-    "confidence": 0.99,
+    "confidence": 0.98,
     "probabilities": {
+     "supports": 0.98,
      "says_nothing": 0.01,
-     "supports": 0.99,
-     "contradicts": 0.0
+     "contradicts": 0.01
     },
     "action": "verified",
     "review_note": ""
@@ -22015,13 +22015,13 @@
    {
     "scene": "16_end",
     "sentence": "This has been The Future Past.",
-    "p_checkable": 0.15,
+    "p_checkable": 0.12,
     "relation": "says_nothing",
-    "confidence": 0.87,
+    "confidence": 0.9,
     "probabilities": {
-     "says_nothing": 0.91,
-     "supports": 0.04,
-     "contradicts": 0.05
+     "supports": 0.02,
+     "says_nothing": 0.93,
+     "contradicts": 0.04
     },
     "action": "not a claim",
     "review_note": ""
